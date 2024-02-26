@@ -109,7 +109,7 @@
 
 
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 600px){
     
     .Navbar > .nav-items {
         position: absolute;
@@ -134,7 +134,7 @@
 
     .Navbar > .nav-toggle {
         display: flex;
-        width: 500px;
+        width: full;
         height: 50px;
         align-items: center;
         justify-content: right;
@@ -184,7 +184,7 @@
     }
 
     .body_div {
-    width: 270px;
+    width: 225px;
     border: none;
     position: absolute;
     top: 11rem;
@@ -195,14 +195,14 @@
     }
 
     .body_h1{
-        font-size: 2rem;
-        line-height: 2.2rem;
+        font-size: 1.7rem;
+        line-height: 1.7rem;
         color: #00A3BA;
     }
 
     .body_p{
-        font-size: 1rem;
-        width: 16rem;
+        font-size: 0.8rem;
+        width: 14rem;
         font-weight: 700;
         line-height: 1.3rem;
         margin-left: 3px;
@@ -211,7 +211,7 @@
     }
 
     .body_button {
-        margin-top: 8px;
+        margin-top: 5px;
         background-color: #00A3BA;
         color: #fff;
         border: none;
