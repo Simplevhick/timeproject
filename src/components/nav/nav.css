@@ -1,0 +1,238 @@
+
+.Navbar{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #010127;
+    
+}
+
+.logo {
+    font-size: 10px;
+    margin: 15px;
+    width: 5rem;
+}
+
+.Navbar > .nav-items > a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 15px;
+    position: relative;
+    opacity: 0.9;
+}
+
+.Navbar > .nav-items > a:hover{
+    opacity: 1;
+}
+
+.Navbar > .nav-items > a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: #00A3BA;
+    transition: all .45s;
+}
+
+.Navbar > .nav-items > a:hover::before {
+    width: 100%;   
+}
+
+.Navbar > .nav-toggle {
+    display: none;
+}
+
+.body_image{
+    background-image: url(new.jpeg);
+    width: full;
+    height: 60rem;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.body_div{
+    width: 430px;
+    border: none;
+    position: absolute;
+    top: 30rem;
+    left: 2rem;
+    padding: 10px;
+    background: black;
+    opacity: .8;
+}
+
+.body_h1{
+    font-size: 3.5rem;
+    line-height: 3rem;
+    color: #00A3BA;
+}
+
+.body_p{
+    font-size: 1.5rem;
+    width: 24rem;
+    line-height: 2.1rem;
+    margin-left: 12px;
+    margin-top: 8px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.body_button {
+    margin-top: 10px;
+    background-color: #00A3BA;
+    color: #fff;
+    border: none;
+    padding: 12px 12px 12px 12px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.body_button:hover {
+    color: #000000;
+    transition: all .45s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+    
+    .Navbar > .nav-items {
+        position: absolute;
+        top: 59px;
+        display: flex;
+        flex-direction: column;
+        background: #00A3BA;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        transform: translateX(-100%);
+        transition: all .45s;
+    }
+
+    .Navbar > .nav-items > a::before{
+        background: transparent;
+    }
+    
+    .Navbar > .nav-items.open {
+        transform: translateX(0);
+    }
+
+    .Navbar > .nav-toggle {
+        display: flex;
+        width: 500px;
+        height: 50px;
+        align-items: center;
+        justify-content: right;
+        cursor: pointer;
+    }
+
+    .nav-toggle > .bar {
+            position: relative;
+            width: 32px;
+            height: 2px;
+            background: #ffffff;
+            transition: all .45s ease-in-out;
+        }
+
+    .nav-toggle > .bar::before , .nav-toggle > .bar::after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        background: #ffffff;
+        border-radius: 2px;
+        transition: all .45s ease-in-out;
+    }
+
+    .nav-toggle > .bar::before{
+        width: 25px;
+        transform: translateY(-8px);
+        right: 0;       
+    }
+
+    .nav-toggle > .bar::after{
+        width: 32px;
+        transform: translateY(8px);
+    }
+
+    .nav-toggle.open > .bar {
+        transform: translateX(-40px);
+        background: transparent;
+    }
+
+    .nav-toggle.open > .bar::before {
+            width: 32px;
+            transform: rotate(45deg) translate(26px, -26px);
+    }
+
+    .nav-toggle.open > .bar::after {
+        transform: rotate(-45deg) translate(26px, 26px);    
+    }
+
+    .body_div {
+    width: 270px;
+    border: none;
+    position: absolute;
+    top: 13rem;
+    left: 0.7rem;
+    padding: 10px;
+    background: black;
+    opacity: .8;
+    }
+
+    .body_h1{
+        font-size: 2rem;
+        line-height: 2.2rem;
+        color: #00A3BA;
+    }
+
+    .body_p{
+        font-size: 1rem;
+        width: 16rem;
+        font-weight: 700;
+        line-height: 1.3rem;
+        margin-left: 3px;
+        margin-top: 4px;
+        color: #fff;
+    }
+
+    .body_button {
+        margin-top: 8px;
+        background-color: #00A3BA;
+        color: #fff;
+        border: none;
+        padding: 8px 8px 8px 8px;
+        font-size: 10px;
+        cursor: pointer;
+        margin-left: 5px;
+        border-radius: 7px;
+    }
+
+    .header {
+        position: relative;
+        z-index: 30;
+    }
+
+    .overall_image {
+        position: relative;
+        z-index: 10;
+    }
+
+} 
+
+
+
