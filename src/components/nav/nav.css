@@ -109,7 +109,7 @@
 
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 640px){
     
     .Navbar > .nav-items {
         position: absolute;
@@ -187,7 +187,7 @@
     width: 270px;
     border: none;
     position: absolute;
-    top: 13rem;
+    top: 11rem;
     left: 0.7rem;
     padding: 10px;
     background: black;
