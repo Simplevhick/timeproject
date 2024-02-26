@@ -7,7 +7,7 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <section className="section">
+    <section className="">
       <div className="parent_div">
         <div className="Navbar">
           <span className="">
@@ -59,7 +59,6 @@ const Nav = () => {
         <div>
           <p>Hello world</p>
           <p>GOD is good and he is good to me oh my soul riseup and praise the lord</p>
-          <p>Hello world</p>
         </div>
       </div>
     </section>
