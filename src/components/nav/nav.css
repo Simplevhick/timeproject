@@ -183,6 +183,15 @@
         transform: rotate(-45deg) translate(26px, 26px);    
     }
 
+    .body_image{
+        background-image: url(new.jpeg);
+        width: full;
+        height: 60rem;
+        position: relative;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
     .body_div {
     width: 225px;
     border: none;
