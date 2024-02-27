@@ -358,15 +358,15 @@
     }
 
     .body_button {
-        margin-top: 5px;
+        margin-top: 7px;
         background-color: #00A3BA;
         color: #fff;
         border: none;
         padding: 6px 6px 6px 6px;
-        font-size: 10px;
+        font-size: 12px;
+        font-weight: 200;
         cursor: pointer;
-        margin-left: 5px;
-        border-radius: 7px;
+        border-radius: 8px;
     }
 
     .header {
