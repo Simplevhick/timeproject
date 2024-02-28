@@ -56,10 +56,39 @@ const Nav = () => {
           </div>
         </div>
 
-        <div>
-          <p>Hello world</p>
-          <p>GOD is good and he is good to me oh my soul riseup and praise the lord</p>
-        </div>
+        <section id="about" className="about_section">
+            <div>
+              <div className="general_about">
+                <div className="about_divtwo">
+                  <h1 className="about_sectionH1">ABOUT US</h1>
+                </div>
+
+                <div className="about_section_div_three">
+                  <p className="about_section_p1">
+                    Hello, and welcome to TIMELINE ENTERTAINMENT! We,re a small,
+                    passionate team of creatives who dedicated to bringing joy
+                    and excitement to people's lives through our work. Our
+                    Company was founded in 2007. We started out small, but our
+                    passion and hard work has helped us grow into the company we
+                    are today. We're proud to say that we've been able to bring
+                    smiles to the faces of people all over the world with our
+                    unique brand of entertainment.
+                  </p>
+                  <p className="about_section_p2">
+                    Timeline Entertainment is a leading provider of innovative
+                    and engaging entertainment experiences. We are commited to
+                    pushing the boundaries of whats possible in entertainment
+                    and our work has been recognized with numerous awards and
+                    accolades.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <p>Hello World</p>
+          <p>My God is good to me, i love him the most on God</p>
       </div>
     </section>
   );

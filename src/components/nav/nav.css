@@ -99,6 +99,61 @@
     transition: all .45s ease-in-out;
 }
 
+.general_about{
+    padding: 40px; 
+    display: flex; 
+    margin-top: 20px;
+}
+
+.about_sectionH1{
+    color: #00A3BA;
+    margin-top: 30px;
+    margin-left: 10rem;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.about_section_div_three {
+    padding: 40px;
+    width: 45rem;
+}
+
+.about_section_p1{
+    font-size: 1.1rem;
+    width: 34rem;
+    line-height: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #B2BEB5;
+    line-height: 1.5rem;
+    margin-left: 9rem;
+
+}
+
+.about_section_p2{
+    font-size: 1.1rem;
+    width: 34rem;
+    line-height: 1.4rem;
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #B2BEB5;
+    line-height: 1.5rem;
+    margin-top: 20px;
+    margin-left: 9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -241,7 +296,63 @@
         z-index: 10;
     }
 
+    .general_about{
+        padding: 10px; 
+        display: grid;
+        margin-top: -27rem;
+        /* margin-top: 20px; */
+    }
+    
+    .about_sectionH1{
+        color: #00A3BA;
+        margin-top: 3px;
+        margin-left: 1.5rem;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .about_divtwo{
+    
+    }
+    
+    .about_section_div_three {
+        padding: 10px;
+        width: 22rem;
+    }
+    
+    .about_section_p1{
+        font-size: 1.1rem;
+        width: 30rem;
+        line-height: 1.4rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #B2BEB5;
+        line-height: 1.5rem;
+        margin-left: 2rem;
+        margin-top: 15px;
+    
+    }
+    
+    .about_section_p2{
+        font-size: 1.1rem;
+        width: 30rem;
+        line-height: 1.4rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #B2BEB5;
+        line-height: 1.5rem;
+        margin-top: 20px;
+        margin-left: 2rem;
+    }
+    
+
 } 
+
+
+
+
+
+
 
 
 
@@ -379,7 +490,68 @@
         z-index: 10;
     }
 
+    .general_about{
+        padding: 10px; 
+        display: grid;
+        margin-top: -36rem;
+        /* margin-top: 20px; */
+    }
+    
+    .about_sectionH1{
+        color: #00A3BA;
+        margin-top: 3px;
+        margin-left: 0.3rem;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .about_divtwo{
+    
+    }
+    
+    .about_section_div_three {
+        padding: 10px;
+        width: 20rem;
+    }
+    
+    .about_section_p1{
+        font-size: 0.9rem;
+        width: 24rem;
+        line-height: 1.4rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #B2BEB5;
+        line-height: 1.5rem;
+        margin-left: 0.1px;
+        margin-top: 4px;
+    
+    }
+    
+    .about_section_p2{
+        font-size: 0.9rem;
+        width: 24rem;
+        line-height: 1.4rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #B2BEB5;
+        line-height: 1.5rem;
+        margin-top: 20px;
+        margin-left: 0.1px;
+    }
+
+
 } 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -467,7 +639,7 @@
     }
 
     .body_div {
-    width: 149px;
+    width: 150px;
     border: none;
     position: absolute;
     top: 6.5rem;
@@ -515,6 +687,51 @@
     .overall_image {
         position: relative;
         z-index: 10;
+    }
+
+    .general_about{
+        padding: 10px; 
+        display: grid;
+        margin-top: -39rem;
+        /* margin-top: 20px; */
+    }
+    
+    .about_sectionH1{
+        color: #00A3BA;
+        margin-top: 3px;
+        margin-left: 0.3rem;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .about_section_div_three {
+        padding: 10px;
+        width: 20rem;
+    }
+    
+    .about_section_p1{
+        font-size: 0.7rem;
+        width: 19rem;
+        line-height: 1.4rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #B2BEB5;
+        line-height: 1.5rem;
+        margin-left: 0.1px;
+        margin-top: 4px;
+    
+    }
+    
+    .about_section_p2{
+        font-size: 0.7rem;
+        width: 19rem;
+        line-height: 1.4rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #B2BEB5;
+        line-height: 1.5rem;
+        margin-top: 20px;
+        margin-left: 0.1px;
     }
 
 } 
