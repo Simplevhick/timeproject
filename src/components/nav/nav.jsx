@@ -1,6 +1,11 @@
 import "./nav.css";
 import Img1 from "./logo.png";
 import { useState } from "react";
+import Img4 from "./pass 3.jpeg"
+import Img5 from "./pass 7.jpeg"
+import { FaFacebookF } from "react-icons/fa"; 
+import { FaTwitter } from "react-icons/fa";
+import { BsInstagram } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
@@ -16,7 +21,7 @@ const Nav = () => {
           <div className={`nav-items ${isOpen && "open"} header`}>
             <a href="/home">Home</a>
             <a href="/about" a>
-              About
+              About 
             </a>
             <a href="/team" a>
               Team
@@ -87,8 +92,186 @@ const Nav = () => {
           </section>
 
 
-          <p>Hello World</p>
-          <p>My God is good to me, i love him the most on God</p>
+          <section id="team">
+            <div className="team_overalldiv">
+              <div className="team_overallh1">
+                Our Amazing Team
+              </div>
+
+              <div className="team_bodydiv">
+                <div className="team_body1">
+                  <div>
+                    <img
+                      src={Img4}
+                      alt="pix"
+                      className="team_body1_img"
+                    />
+                  </div>
+                  <div className="team_body1_names">
+                    <p className="team_body1_firstname">
+                      MR MICHEAL
+                    </p>
+                    <p className="team_body1_work">
+                      Worldwide Partner
+                    </p>
+                  </div>
+                  <div className="team_body1_icons">
+                    <p className="team_body1_facebook">
+                      <FaFacebookF />
+                    </p>
+                    <p className="team_body1_twitter">
+                      <FaTwitter />
+                    </p>
+                    <p className="team_body1_instagram">
+                      <BsInstagram />
+                    </p>
+                  </div>
+                </div>
+                <div className="team_body2">
+                  <div>
+                    <img
+                      src={Img5}
+                      alt="pix"
+                      className="team_body2_img"
+                    />
+                  </div>
+                  <div className="team_body2_names">
+                    <p className="team_body2_firstname">
+                      CHINONSO
+                    </p>
+                    <p className="team_body2_work">
+                      Worldwide Partner
+                    </p>
+                  </div>
+                  <div className="team_body2_icons">
+                    <p className="team_body2_facebook">
+                      <Link>
+                          <FaFacebookF />
+                      </Link>
+                    </p>
+                    <p className="team_body2_twitter">
+                      <FaTwitter />
+                    </p>
+                    <p className="team_body2_instagram">
+                      <BsInstagram />
+                    </p>
+                  </div>
+                </div>
+                <div className="team_body3">
+                  <div>
+                    <img
+                      src={Img4}
+                      alt="pix"
+                      className="team_body3_img"
+                    />
+                  </div>
+                  <div className="team_body3_names">
+                    <p className="team_body3_firstname">
+                      YHEMOLEE
+                    </p>
+                    <p className="team_body3_work">
+                      Worldwide Partner
+                    </p>
+                  </div>
+                  <div className="team_body3_icons">
+                    <p className="team_body3_facebook">
+                      <FaFacebookF />
+                    </p>
+                    <p className="team_body3_twitter">
+                      <FaTwitter />
+                    </p>
+                    <p className="team_body3_instagram">
+                      <BsInstagram />
+                    </p>
+                  </div>
+                </div>
+                <div className="team_body4">
+                  <div>
+                    <img
+                      src={Img5}
+                      alt="pix"
+                      className="team_body4_img"
+                    />
+                  </div>
+                  <div className="team_body4_names">
+                    <p className="team_body4_firstname">
+                      MR CAPTAIN
+                    </p>
+                    <p className="team_body4_work">
+                      Worldwide Partner
+                    </p>
+                  </div>
+                  <div className="team_body4_icons">
+                    <p className="team_body4_facebook">
+                      <FaFacebookF />
+                    </p>
+                    <p className="team_body3_twitter">
+                      <FaTwitter />
+                    </p>
+                    <p className="team_body3_instagram">
+                      <BsInstagram />
+                    </p>
+                  </div>
+                </div>
+                <div className="team_body5">
+                  <div>
+                    <img
+                      src={Img4}
+                      alt="pix"
+                      className="team_body5_img"
+                    />
+                  </div>
+                    <div className="team_body5_names">
+                    <p className="team_body5_firstname">
+                      MR DAVIDO
+                    </p>
+                    <p className="team_body5_work">
+                      Worldwide Partner
+                    </p>
+                  </div>
+                  <div className="team_body5_icons">
+                    <p className="team_body5_facebook">
+                      <FaFacebookF />
+                    </p>
+                    <p className="team_body5_twitter">
+                      <FaTwitter />
+                    </p>
+                    <p className="team_body5_instagram">
+                      <BsInstagram /> 
+                    </p>
+                  </div>
+                </div>
+                <div className="team_body6">
+                  <div>
+                    <img
+                      src={Img5}
+                      alt="pix"
+                      className="team_body6_img"
+                    />
+                  </div>
+                    <div className="team_body6_names">
+                      <p className="team_body6_firstname">
+                      MR AJAYI
+                    </p>
+                    <p className="team_body6_work">
+                      Worldwide Partner
+                    </p>
+                  </div>
+                  <div className="team_body6_icons">
+                    <p className="team_body6_facebook">
+                      <FaFacebookF />
+                    </p>
+                    <p className="team_body6_twitter">
+                      <FaTwitter />
+                    </p>
+                    <p className="team_body6_instagram">
+                      <BsInstagram />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
       </div>
     </section>
   );
