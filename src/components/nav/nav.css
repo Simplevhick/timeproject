@@ -1795,27 +1795,29 @@
 
   .servives_h2{
     margin-top: 15rem;
-    margin-left: 4.3rem;
+    margin-left: 4.5rem;
     font-size: 2rem;
   }
 
   .text-box h2{
     font-weight: 600;
     font-size: 1.6rem;
+    width: 22rem;
   }
 
   .sm_p{
-    font-size: 17px;
-    margin-top: 5px;
+    font-size: 18px;
+    margin-top: 3px;
   }
   
   .sm_p2{
-    font-size: 15px;
-    margin-top: 5px;
+    font-size: 17px;
+    margin-top: 3px;
   }
 
   .text_box_p {
     font-size: 18px;
+    margin-top: 8px;
   }
 
   .timeline{
