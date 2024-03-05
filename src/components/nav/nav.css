@@ -1802,7 +1802,7 @@
   .text-box h2{
     font-weight: 600;
     font-size: 1.6rem;
-    width: 22rem;
+    /* width: 22rem; */
   }
 
   .sm_p{
