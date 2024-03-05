@@ -1185,8 +1185,8 @@
   }
 
   .servives_h2{
-    margin-top: 17rem;
-    margin-left: 11rem;
+    margin-top: 15rem;
+    margin-left: 4.5rem;
     font-size: 2rem;
   }
   
@@ -1772,6 +1772,12 @@
   .team_body6_instagram {
     font-size: 16px;
     margin-left: 19px;
+  }
+
+  .servives_h2{
+    margin-top: 15rem;
+    margin-left: 2.8rem;
+    font-size: 2rem;
   }
 
   .timeline{
