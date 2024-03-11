@@ -158,7 +158,7 @@
 .team_bodydiv {
   margin-top: 40px;
   display: grid;
-  background-color: #fff; 
+  background-color: #fff;
   grid-template-columns: 3fr 3fr 3fr;
   position: relative;
   width: 70rem;
@@ -253,7 +253,6 @@
   font-size: 1rem;
   letter-spacing: 1px;
   margin-left: 4px;
-
 }
 
 .team_body2_icons {
@@ -418,7 +417,6 @@
   font-size: 1rem;
   letter-spacing: 1px;
   margin-left: 2px;
-
 }
 
 .team_body5_icons {
@@ -495,14 +493,13 @@
   margin-left: 19px;
 }
 
-.servives_h2{
+.servives_h2 {
   margin-top: 14rem;
   margin-left: 32.2rem;
   font-size: 2rem;
 }
 
-
-.timeline{
+.timeline {
   position: relative;
   max-width: 1200px;
   margin: 100px auto;
@@ -517,95 +514,94 @@
   opacity: 0;
 }
 @keyframes movedown {
-    0%{
-      opacity: 1;
-      transform: translateY(-30px);
-    }
-    100%{
-      opacity: 1;
-      transform: translateY(0px);
-    }
+  0% {
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
-.container:nth-child(1){
+.container:nth-child(1) {
   animation-delay: 0s;
 }
-.container:nth-child(2){
+.container:nth-child(2) {
   animation-delay: 1s;
 }
-.container:nth-child(3){
+.container:nth-child(3) {
   animation-delay: 2s;
 }
-.container:nth-child(4){
+.container:nth-child(4) {
   animation-delay: 3s;
 }
-.container:nth-child(5){
+.container:nth-child(5) {
   animation-delay: 4s;
 }
-.container:nth-child(6){
+.container:nth-child(6) {
   animation-delay: 5s;
 }
 
-.text-box{
-   padding: 20px 30px;
+.text-box {
+  padding: 20px 30px;
   background: #abd9d9;
   position: relative;
   border-radius: 6px;
   font-size: 15px;
 }
 
-.left-container{
+.left-container {
   left: 0;
 }
-.right-container{
+.right-container {
   left: 50%;
 }
 
-.left_container_logo{
+.left_container_logo {
   position: absolute;
   width: 40px;
-  right: -20px; 
+  right: -20px;
   top: 32px;
   z-index: 10;
 }
 
-.right_container_logo{
+.right_container_logo {
   position: absolute;
   width: 40px;
-  right: -20px; 
+  right: -20px;
   top: 32px;
   z-index: 10;
 }
 
-
-.right_container_logo{ 
+.right_container_logo {
   left: -20px;
 }
 
 .timeline::after {
-   content: "";
-   position: absolute;
-   width: 6px;
-   height: 100%;
-   background: #00a3ba;
-   top: 0; 
-   left: 50%;
-   margin-left: -3px;
-   z-index: -1;
-   animation: moveline 6s linear forwards;
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: #00a3ba;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -1;
+  animation: moveline 6s linear forwards;
 }
 
 @keyframes moveline {
-   0% {
-      height: 0;
-   }
-   100% {
-      height: 100%;
-   }
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
 }
 
-.text-box h2{
-   font-weight: 600;
+.text-box h2 {
+  font-weight: 600;
 }
 
 .text-box small {
@@ -613,29 +609,270 @@
   margin-bottom: 15px;
 }
 
-.left_container_arrow{
-    height: 0; 
-    width: 0;
-    position: absolute;
-    top: 28px;
-    z-index: 1;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;   
-    border-left: 10px solid #00a3ba;
-    right: -15px;
-  }
+.left_container_arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #00a3ba;
+  right: -15px;
+}
 
-  .right_container_arrow{
-    height: 0; 
-    width: 0;
-    position: absolute;
-    top: 28px;
-    z-index: 1;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;   
-    border-right: 10px solid #00a3ba;
-    left: -15px;
-  }
+.right_container_arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #00a3ba;
+  left: -15px;
+}
+
+.contact_div2 {
+  display: flex;
+}
+
+.contact_img {
+  background-image: url(bg.PNG);
+  width: full;
+  height: 60rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contact_div2 {
+  margin-top: 15rem;
+}
+
+.first_part {
+  margin-top: 27rem;
+  width: 25rem;
+  height: 31rem;
+  background: #ffffff;
+  margin-left: 15rem;
+}
+
+.contact_logo1_div1 {
+  margin-top: 7.5rem;
+  margin-left: 30px;
+}
+
+.contact_logo1_div {
+  display: flex;
+}
+
+.contact_logo1 {
+  font-size: 1.5rem;
+}
+
+.contact_logo1_p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.logo1_p {
+  font-size: 1rem;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+.contact_logo2_div2 {
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+.contact_logo2_div {
+  display: flex;
+}
+
+.contact_logo2 {
+  font-size: 1.5rem;
+}
+
+.contact_logo2_p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.logo2_p {
+  font-size: 1rem;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+.contact_logo3_div3 {
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+.contact_logo3_div {
+  display: flex;
+}
+
+.contact_logo3 {
+  font-size: 1.5rem;
+}
+
+.contact_logo3_p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.logo3_p {
+  font-size: 1rem;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+.second_part {
+  margin-top: 27rem;
+  width: 27rem;
+  padding: 1rem;
+  background: #e5e5e5;
+}
+
+.contact_h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-left: 6rem;
+}
+
+.contact_name {
+  padding: 10px;
+  width: 20rem;
+  margin-top: 30px;
+  margin-left: 21px;
+  outline: none;
+}
+
+.contact_email {
+  padding: 10px;
+  width: 20rem;
+  margin-top: 1.4rem;
+  margin-left: 21px;
+  outline: none;
+}
+
+.contact_textarea {
+  padding: 15px;
+  width: 20rem;
+  margin-top: 1.4rem;
+  margin-left: 21px;
+  outline: none;
+}
+
+.general_input_div {
+  padding: 20px;
+  margin-top: 1.5rem;
+}
+
+.contact_button {
+  padding: 5px;
+  width: 20rem;
+  margin-top: 1rem;
+  margin-left: 21px;
+  cursor: pointer;
+  background: #00a3ba;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.contact_button:hover {
+  background: white;
+}
+
+footer {
+  background: #00a3ba;   
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 9rem;         
+}
+
+footer a {
+  color: #1f1f38;
+}
+
+.footer__logo {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.permalinks {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;  
+  font-size: 1rem;
+  margin-top: 4rem;   
+  gap: 2rem;
+  margin: 0 auto 2rem;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.footer__socials a {
+  background: #1f1f38;
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  display: flex;
+  border: 1px solid transparent;
+}
+
+.footer__socials a:hover {
+  background: transparent;   
+  color: #1f1f38;
+  border-color:  #1f1f38;   
+}
+
+.footer__copyright {
+   margin-bottom: 0.1px;
+   color: #1f1f38;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -834,7 +1071,7 @@
     height: 180rem;
     background-color: #00a3ba;
   }
-  
+
   .team_overallh1 {
     font-size: 38px;
     font-family: "Poppins", sans-serif;
@@ -842,18 +1079,18 @@
     margin-left: 8rem;
     margin-top: 2rem;
   }
-  
+
   .team_bodydiv {
     margin-top: 40px;
     display: grid;
-    background-color: #fff; 
+    background-color: #fff;
     grid-template-columns: 1fr;
     position: relative;
     width: 26rem;
     height: 168rem;
     margin-left: 5.5rem;
   }
-  
+
   .team_body1 {
     width: 15rem;
     margin-left: 75px;
@@ -862,13 +1099,13 @@
     height: 20.5rem;
     background-color: #fff;
   }
-  
+
   .team_body1_img {
     margin-left: 20px;
     margin-top: 14px;
     width: 14rem;
   }
-  
+
   .team_body1_names {
     padding: 9px;
     width: 10rem;
@@ -877,37 +1114,37 @@
     top: 18.4rem;
     left: 8rem;
   }
-  
+
   .team_body1_firstname {
     font-size: 1.2rem;
     margin-left: 8px;
   }
-  
+
   .team_body1_work {
     font-size: 1rem;
     letter-spacing: 1px;
   }
-  
+
   .team_body1_icons {
     margin-top: 12px;
     margin-left: 83px;
     display: flex;
   }
-  
+
   .team_body1_facebook {
     font-size: 16px;
   }
-  
+
   .team_body1_twitter {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body1_instagram {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body2 {
     width: 15rem;
     margin-left: 75px;
@@ -916,13 +1153,13 @@
     height: 20.5rem;
     background-color: #fff;
   }
-  
+
   .team_body2_img {
     margin-left: 20px;
     margin-top: 14px;
     width: 13.2rem;
   }
-  
+
   .team_body2_names {
     padding: 9px;
     width: 10rem;
@@ -930,41 +1167,39 @@
     position: absolute;
     top: 46.5rem;
     left: 7.6rem;
-    
   }
-  
+
   .team_body2_firstname {
     font-size: 1.2rem;
     margin-left: 20px;
   }
-  
+
   .team_body2_work {
     font-size: 1rem;
     letter-spacing: 1px;
     margin-left: 4px;
-  
   }
-  
+
   .team_body2_icons {
     margin-top: 11px;
     margin-left: 77px;
     display: flex;
   }
-  
+
   .team_body2_facebook {
     font-size: 16px;
   }
-  
+
   .team_body2_twitter {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body2_instagram {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body3 {
     width: 15rem;
     margin-left: 75px;
@@ -973,13 +1208,13 @@
     height: 20.5rem;
     background-color: #fff;
   }
-  
+
   .team_body3_img {
     margin-left: 20px;
     margin-top: 14px;
     width: 14rem;
   }
-  
+
   .team_body3_names {
     padding: 9px;
     width: 10rem;
@@ -988,38 +1223,38 @@
     top: 74.4rem;
     left: 8rem;
   }
-  
+
   .team_body3_firstname {
     font-size: 1.2rem;
     margin-left: 15px;
   }
-  
+
   .team_body3_work {
     font-size: 1rem;
     letter-spacing: 1px;
     margin-left: 2px;
   }
-  
+
   .team_body3_icons {
     margin-top: 11px;
     margin-left: 84px;
     display: flex;
   }
-  
+
   .team_body3_facebook {
     font-size: 16px;
   }
-  
+
   .team_body3_twitter {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body3_instagram {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body4 {
     width: 15rem;
     margin-left: 75px;
@@ -1028,13 +1263,13 @@
     height: 20.5rem;
     background-color: #fff;
   }
-  
+
   .team_body4_img {
     margin-left: 20px;
     margin-top: 14px;
     width: 14rem;
   }
-  
+
   .team_body4_names {
     padding: 9px;
     width: 10rem;
@@ -1043,37 +1278,37 @@
     top: 103.3rem;
     left: 8rem;
   }
-  
+
   .team_body4_firstname {
     font-size: 1.2rem;
     margin-left: 12px;
   }
-  
+
   .team_body4_work {
     font-size: 1rem;
     letter-spacing: 1px;
   }
-  
+
   .team_body4_icons {
     margin-top: 11px;
     margin-left: 85px;
     display: flex;
   }
-  
+
   .team_body4_facebook {
     font-size: 16px;
   }
-  
+
   .team_body4_twitter {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body4_instagram {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body5 {
     width: 15rem;
     margin-left: 75px;
@@ -1082,13 +1317,13 @@
     height: 20.5rem;
     background-color: #fff;
   }
-  
+
   .team_body5_img {
     margin-left: 20px;
     margin-top: 34px;
     width: 14rem;
   }
-  
+
   .team_body5_names {
     padding: 9px;
     width: 10rem;
@@ -1097,39 +1332,38 @@
     top: 131.6rem;
     left: 8rem;
   }
-  
+
   .team_body5_firstname {
     font-size: 1.2rem;
     margin-left: 16px;
   }
-  
+
   .team_body5_work {
     font-size: 1rem;
     letter-spacing: 1px;
     margin-left: 2px;
-  
   }
-  
+
   .team_body5_icons {
     margin-top: 11px;
     margin-left: 83px;
     display: flex;
   }
-  
+
   .team_body5_facebook {
     font-size: 16px;
   }
-  
+
   .team_body5_twitter {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body5_instagram {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body6 {
     width: 15rem;
     margin-left: 75px;
@@ -1138,13 +1372,13 @@
     height: 20.5rem;
     background-color: #fff;
   }
-  
+
   .team_body6_img {
     margin-left: 20px;
     margin-top: 14px;
     width: 14rem;
   }
-  
+
   .team_body6_names {
     padding: 9px;
     width: 10rem;
@@ -1153,54 +1387,54 @@
     top: 159.3rem;
     left: 8rem;
   }
-  
+
   .team_body6_firstname {
     font-size: 1.2rem;
     margin-left: 22px;
   }
-  
+
   .team_body6_work {
     font-size: 1rem;
     letter-spacing: 1px;
   }
-  
+
   .team_body6_icons {
     margin-top: 13px;
     margin-left: 83px;
     display: flex;
   }
-  
+
   .team_body6_facebook {
     font-size: 16px;
   }
-  
+
   .team_body6_twitter {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body6_instagram {
     font-size: 16px;
     margin-left: 19px;
   }
 
-  .servives_h2{
+  .servives_h2 {
     margin-top: 15rem;
     margin-left: 9rem;
     font-size: 2rem;
   }
 
-  .sm_p2{
+  .sm_p2 {
     font-size: 19px;
     margin-top: 5px;
   }
 
-  .text-box h2{
+  .text-box h2 {
     font-weight: 600;
     font-size: 1.6rem;
   }
 
-  .sm_p{
+  .sm_p {
     font-size: 19px;
     margin-top: 5px;
   }
@@ -1208,39 +1442,234 @@
   .text_box_p {
     font-size: 18.5px;
   }
-  
-   .timeline{
+
+  .timeline {
     margin: 50px auto;
   }
   .timeline::after {
     left: 31px;
   }
   .container {
-   width: 100%;
-   padding-left: 80px;
-   padding-right: 25px;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px;
   }
   .text-box {
     font-size: 13px;
   }
-  .text-box small{
+  .text-box small {
     margin-bottom: 10px;
   }
   .right-container {
     left: 0;
   }
 
-.left_container_logo, .right_container_logo {
-  left: 10px;
+  .left_container_logo,
+  .right_container_logo {
+    left: 10px;
+  }
+
+  .left_container_arrow,
+  .right_container_arrow {
+    border-right: 15px solid #00a3ba;
+    border-left: 0;
+    left: -15px;
+  }
+
+  .contact_div2 {
+    display: grid;
+    flex-direction: row-reverse;
+  }
+
+  .contact_img {
+    background-image: url(bg.PNG);
+    width: full;
+    height: 60rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .contact_div2 {
+    margin-top: 15rem;
+  }
+
+  .first_part {
+    margin-top: 50rem;
+    width: 25rem;
+    height: 31rem;
+    background: #ffffff;
+    margin-left: 2.8rem;
+  }
+
+  .contact_logo1_div1 {
+    margin-top: 2rem;
+    margin-left: 10px;
+  }
+
+  .contact_logo1_div {
+    display: flex;
+  }
+
+  .contact_logo1 {
+    font-size: 2rem;
+    color: #00a3ba;
+  }
+
+  .contact_logo1_p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-left: 20px;
+    
+    }
+
+  .logo1_p {
+    font-size: 1.5rem;
+    margin-left: 22px;
+    margin-top: 10px;
+    
+  }
+
+  .contact_logo2_div2 {
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+
+  .contact_logo2_div {
+    display: flex;
+  }
+
+  .contact_logo2 {
+    font-size: 2rem;
+    color: #00a3ba;
+  }
+
+  .contact_logo2_p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+
+  .logo2_p {
+    font-size: 1.5rem;
+    margin-left: 22px;
+    margin-top: 10px;
+  }
+
+  .contact_logo3_div3 {
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+
+  .contact_logo3_div {
+    display: flex;
+  }
+
+  .contact_logo3 {
+    font-size: 2rem;
+    color: #00a3ba;
+
+  }
+
+  .contact_logo3_p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+
+  .logo3_p {
+    font-size: 1.5rem;
+    margin-left: 22px;
+    margin-top: 10px;
+  }
+
+  .second_part {
+    margin-top: -67rem;
+    height: 30rem;
+    width: 31.5rem;
+    padding: 1rem;
+    background: #e5e5e5;
+    margin-left: 3rem;
+  }
+
+  .contact_h2 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-left: 5.5rem;
+  }
+
+  .contact_name {
+    padding: 13px;
+    width: 23rem;
+    margin-top: 30px;
+    margin-left: 18px;
+    outline: none;
+  }
+
+  .contact_email {
+    padding: 13px;
+    width: 23rem;
+    margin-top: 1.4rem;
+    margin-left: 18px;
+    outline: none;
+  }
+
+  .contact_textarea {
+    padding: 15px;
+    width: 23rem;
+    margin-top: 1.4rem;
+    margin-left: 18px;
+    outline: none;
+  }
+
+  .general_input_div {
+    padding: 5px;
+    margin-top: 0.5px;
+    margin-left: 1.5rem;
+  }
+
+  .contact_button {
+    padding: 15px;
+    width: 22rem;
+    margin-top: 1rem;
+    margin-left: 26px;
+    cursor: pointer;
+    background: #00a3ba;
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 5px;
+    transition: .4s;
+  }
+
+  .contact_button:hover {
+    background: white;
+  }
+
+  .permalinks {
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1rem; 
+}   
+
+.footer__socials {
+    margin-bottom: 2.6rem;
 }
 
-.left_container_arrow, .right_container_arrow {
-   border-right: 15px solid #00a3ba;
-  border-left: 0;
-  left: -15px;
-  } 
+footer {
+  background: #00a3ba;   
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 29rem;         
+}
+
+.footer__copyright{
+  font-size: 1rem;
+}
+
 
 }
+
+
 
 
 
@@ -1436,14 +1865,13 @@
     margin-left: 0.1px;
   }
 
-
   .team_overalldiv {
     border: 2px solid #00a3ba;
     margin-top: 9rem;
     height: 180rem;
     background-color: #00a3ba;
   }
-  
+
   .team_overallh1 {
     font-size: 35px;
     font-family: "Poppins", sans-serif;
@@ -1451,18 +1879,18 @@
     margin-left: 3rem;
     margin-top: 2rem;
   }
-  
+
   .team_bodydiv {
     margin-top: 40px;
     display: grid;
-    background-color: #fff; 
+    background-color: #fff;
     grid-template-columns: 1fr;
     position: relative;
     width: 21rem;
     height: 168rem;
     margin-left: 2.4rem;
   }
-  
+
   .team_body1 {
     width: 15rem;
     margin-left: 40px;
@@ -1471,13 +1899,13 @@
     height: 20.5rem;
     background-color: #fff;
   }
-  
+
   .team_body1_img {
     margin-left: -3px;
     margin-top: 14px;
     width: 16rem;
   }
-  
+
   .team_body1_names {
     padding: 9px;
     width: 10rem;
@@ -1486,37 +1914,37 @@
     top: 21rem;
     left: 5.5rem;
   }
-  
+
   .team_body1_firstname {
     font-size: 1.2rem;
     margin-left: 8px;
   }
-  
+
   .team_body1_work {
     font-size: 1rem;
     letter-spacing: 1px;
   }
-  
+
   .team_body1_icons {
     margin-top: 12px;
     margin-left: 83px;
     display: flex;
   }
-  
+
   .team_body1_facebook {
     font-size: 16px;
   }
-  
+
   .team_body1_twitter {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body1_instagram {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body2 {
     width: 15rem;
     margin-left: 25px;
@@ -1525,13 +1953,13 @@
     height: 20.5rem;
     background-color: #fff;
   }
-  
+
   .team_body2_img {
     margin-left: 14px;
     margin-top: 14px;
     width: 16rem;
   }
-  
+
   .team_body2_names {
     padding: 9px;
     width: 10rem;
@@ -1539,41 +1967,40 @@
     position: absolute;
     top: 50rem;
     left: 5.5rem;
-    
   }
-  
+
   .team_body2_firstname {
     font-size: 1.2rem;
     margin-left: 20px;
   }
-  
+
   .team_body2_work {
     font-size: 1rem;
     letter-spacing: 1px;
     margin-left: 4px;
-  
   }
-  
+
   .team_body2_icons {
     margin-top: 11px;
     margin-left: 95px;
     display: flex;
   }
-  
+
   .team_body2_facebook {
     font-size: 16px;
+    color: black;
   }
-  
+
   .team_body2_twitter {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body2_instagram {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body3 {
     width: 15rem;
     margin-left: 25px;
@@ -1582,13 +2009,13 @@
     height: 20.5rem;
     background-color: #fff;
   }
-  
+
   .team_body3_img {
     margin-left: 15px;
     margin-top: 14px;
     width: 16rem;
   }
-  
+
   .team_body3_names {
     padding: 9px;
     width: 10rem;
@@ -1597,38 +2024,38 @@
     top: 76.8rem;
     left: 5.5rem;
   }
-  
+
   .team_body3_firstname {
     font-size: 1.2rem;
     margin-left: 15px;
   }
-  
+
   .team_body3_work {
     font-size: 1rem;
     letter-spacing: 1px;
     margin-left: 2px;
   }
-  
+
   .team_body3_icons {
     margin-top: 11px;
     margin-left: 91px;
     display: flex;
   }
-  
+
   .team_body3_facebook {
     font-size: 16px;
   }
-  
+
   .team_body3_twitter {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body3_instagram {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body4 {
     width: 15rem;
     margin-left: 25px;
@@ -1637,13 +2064,13 @@
     height: 20.5rem;
     background-color: #fff;
   }
-  
+
   .team_body4_img {
     margin-left: 15px;
     margin-top: 14px;
     width: 16rem;
   }
-  
+
   .team_body4_names {
     padding: 9px;
     width: 10rem;
@@ -1652,37 +2079,37 @@
     top: 106rem;
     left: 5.5rem;
   }
-  
+
   .team_body4_firstname {
     font-size: 1.2rem;
     margin-left: 12px;
   }
-  
+
   .team_body4_work {
     font-size: 1rem;
     letter-spacing: 1px;
   }
-  
+
   .team_body4_icons {
     margin-top: 10px;
     margin-left: 92px;
     display: flex;
   }
-  
+
   .team_body4_facebook {
     font-size: 16px;
   }
-  
+
   .team_body4_twitter {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body4_instagram {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body5 {
     width: 15rem;
     margin-left: 22px;
@@ -1691,13 +2118,13 @@
     height: 20.5rem;
     background-color: #fff;
   }
-  
+
   .team_body5_img {
     margin-left: 20px;
     margin-top: 34px;
     width: 16rem;
   }
-  
+
   .team_body5_names {
     padding: 9px;
     width: 10rem;
@@ -1706,39 +2133,38 @@
     top: 133.8rem;
     left: 5.5rem;
   }
-  
+
   .team_body5_firstname {
     font-size: 1.2rem;
     margin-left: 16px;
   }
-  
+
   .team_body5_work {
     font-size: 1rem;
     letter-spacing: 1px;
     margin-left: 2px;
-  
   }
-  
+
   .team_body5_icons {
     margin-top: 9px;
     margin-left: 96px;
     display: flex;
   }
-  
+
   .team_body5_facebook {
     font-size: 16px;
   }
-  
+
   .team_body5_twitter {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body5_instagram {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body6 {
     width: 15rem;
     margin-left: 20px;
@@ -1747,13 +2173,13 @@
     height: 20.5rem;
     background-color: #fff;
   }
-  
+
   .team_body6_img {
     margin-left: 20px;
     margin-top: 14px;
     width: 16rem;
   }
-  
+
   .team_body6_names {
     padding: 9px;
     width: 10rem;
@@ -1762,55 +2188,55 @@
     top: 161.6rem;
     left: 5.4rem;
   }
-  
+
   .team_body6_firstname {
     font-size: 1.2rem;
     margin-left: 22px;
   }
-  
+
   .team_body6_work {
     font-size: 1rem;
     letter-spacing: 1px;
   }
-  
+
   .team_body6_icons {
     margin-top: 1px;
     margin-left: 95px;
     display: flex;
   }
-  
+
   .team_body6_facebook {
     font-size: 16px;
   }
-  
+
   .team_body6_twitter {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body6_instagram {
     font-size: 16px;
     margin-left: 19px;
   }
 
-  .servives_h2{
+  .servives_h2 {
     margin-top: 15rem;
     margin-left: 4.5rem;
     font-size: 2rem;
   }
 
-  .text-box h2{
+  .text-box h2 {
     font-weight: 600;
     font-size: 1.6rem;
     /* width: 22rem; */
   }
 
-  .sm_p{
+  .sm_p {
     font-size: 18px;
     margin-top: 3px;
   }
-  
-  .sm_p2{
+
+  .sm_p2 {
     font-size: 17px;
     margin-top: 3px;
   }
@@ -1820,45 +2246,255 @@
     margin-top: 8px;
   }
 
-  .timeline{
+  .timeline {
     margin: 50px auto;
   }
   .timeline::after {
     left: 31px;
   }
   .container {
-   width: 100%;
-   padding-left: 80px;
-   padding-right: 25px;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px;
   }
   .text-box {
     font-size: 13px;
   }
-  .text-box small{
+  .text-box small {
     margin-bottom: 10px;
   }
   .right-container {
     left: 0;
   }
 
-.left_container_logo, .right_container_logo {
-  left: 10px;
-}
-
-.left_container_arrow, .right_container_arrow {
-   border-right: 15px solid #00a3ba;
-  border-left: 0;
-  left: -15px;
+  .left_container_logo,
+  .right_container_logo {
+    left: 10px;
   }
 
+  .left_container_arrow,
+  .right_container_arrow {
+    border-right: 15px solid #00a3ba;
+    border-left: 0;
+    left: -15px;
+  }
 
+  .contact_div2 {
+    display: grid;
+  }
 
+  .contact_img {
+    background-image: url(bg.PNG);
+    width: full;
+    height: 60rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
+  .contact_div2 {
+    margin-top: 15rem;
+  }
 
+  .first_part {
+    margin-top: 50rem;
+    width: 20rem;
+    height: 31rem;
+    background: #ffffff;
+    margin-left: 1.2rem;
+  }
 
+  .contact_logo1_div1 {
+    margin-top: 1px;
+    margin-left: 10px;
+  }
 
+  .contact_logo1_div {
+    display: flex;
+  }
 
+  .contact_logo1 {
+    font-size: 1.7rem;
+    color: #00a3ba;
+  }
+
+  .contact_logo1_p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 20px;
+    
+    }
+
+  .logo1_p {
+    font-size: 1.3rem;
+    margin-left: 22px;
+    margin-top: 10px;
+    
+  }
+
+  .contact_logo2_div2 {
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+
+  .contact_logo2_div {
+    display: flex;
+  }
+
+  .contact_logo2 {
+    font-size: 1.7rem;
+    color: #00a3ba;
+  }
+
+  .contact_logo2_p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+
+  .logo2_p {
+    font-size: 1.3rem;
+    margin-left: 22px;
+    margin-top: 10px;
+  }
+
+  .contact_logo3_div3 {
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+
+  .contact_logo3_div {
+    display: flex;
+    
+  }
+
+  .contact_logo3 {
+    font-size: 1.7rem;
+    color: #00a3ba;
+    
+  }
+
+  .contact_logo3_p {
+    font-size: 1.3rem;
+    margin-left: 22px;
+    margin-top: 4px;
+  }
+
+  .logo3_p {
+    font-size: 1.6rem;
+    margin-left: 22px;
+    margin-top: 10px;
+  }
+
+  .second_part {
+    margin-top: -71rem;
+    height: 28rem;
+    width: 23.4rem;
+    padding: 0.3px;
+    background: #e5e5e5;
+    margin-left: 1.3rem;
+  }
+
+  .contact_h2 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-left: 5.3rem;
+  }
+
+  .contact_name {
+    padding: 11px;
+    width: 19rem;
+    margin-top: 30px;
+    margin-left: 14px;
+    outline: none;
+  }
+
+  .contact_email {
+    padding: 11px;
+    width: 19rem;
+    margin-top: 30px;
+    margin-left: 14px;
+    outline: none;
+  }
+
+  .contact_textarea {
+    padding: 11px;
+    width: 19rem;
+    margin-top: 30px;
+    margin-left: 14px;
+    outline: none;
+  }
+
+  .general_input_div {
+    padding: 5px;
+    margin-top: 0.5px;
+    margin-left: 1rem;
+  }
+
+  .contact_button {
+    padding: 11px;
+    width: 19rem;
+    margin-top: 30px;
+    margin-left: 14px;
+    cursor: pointer;
+    background: #00a3ba;
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 5px;
+    transition: .4s;
+  }
+
+  .contact_button:hover {
+    background: white;
+  }
+
+  .permalinks {
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1rem; 
+}   
+
+.footer__socials {
+    margin-bottom: 2.6rem;
 }
+
+footer {
+  background: #00a3ba;   
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 29rem;         
+}
+
+.footer__copyright{
+  font-size: 1rem;
+}
+
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2056,7 +2692,7 @@
     height: 180rem;
     background-color: #00a3ba;
   }
-  
+
   .team_overallh1 {
     font-size: 32px;
     font-family: "Poppins", sans-serif;
@@ -2067,14 +2703,14 @@
   .team_bodydiv {
     margin-top: 40px;
     display: grid;
-    background-color: #fff; 
+    background-color: #fff;
     grid-template-columns: 1fr;
     position: relative;
     width: 17.6rem;
     height: 168rem;
     margin-left: 2.4rem;
   }
-  
+
   .team_body1 {
     width: 12rem;
     margin-left: 32px;
@@ -2083,13 +2719,13 @@
     height: 20.5rem;
     background-color: #fff;
   }
-  
+
   .team_body1_img {
     margin-left: -3px;
     margin-top: 14px;
     width: 14rem;
   }
-  
+
   .team_body1_names {
     padding: 9px;
     width: 10rem;
@@ -2098,37 +2734,37 @@
     top: 18rem;
     left: 3.9rem;
   }
-  
+
   .team_body1_firstname {
     font-size: 1.2rem;
     margin-left: 8px;
   }
-  
+
   .team_body1_work {
     font-size: 1rem;
     letter-spacing: 1px;
   }
-  
+
   .team_body1_icons {
     margin-top: 10px;
     margin-left: 64px;
     display: flex;
   }
-  
+
   .team_body1_facebook {
     font-size: 16px;
   }
-  
+
   .team_body1_twitter {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body1_instagram {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body2 {
     width: 15rem;
     margin-left: 17px;
@@ -2137,13 +2773,13 @@
     height: 20.5rem;
     background-color: #fff;
   }
-  
+
   .team_body2_img {
     margin-left: 14px;
     margin-top: 14px;
     width: 14rem;
   }
-  
+
   .team_body2_names {
     padding: 9px;
     width: 10rem;
@@ -2151,41 +2787,39 @@
     position: absolute;
     top: 47.4rem;
     left: 4rem;
-    
   }
-  
+
   .team_body2_firstname {
     font-size: 1.2rem;
     margin-left: 20px;
   }
-  
+
   .team_body2_work {
     font-size: 1rem;
     letter-spacing: 1px;
     margin-left: 4px;
-  
   }
-  
+
   .team_body2_icons {
     margin-top: 8px;
     margin-left: 77px;
     display: flex;
   }
-  
+
   .team_body2_facebook {
     font-size: 16px;
   }
-  
+
   .team_body2_twitter {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body2_instagram {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body3 {
     width: 15rem;
     margin-left: 15px;
@@ -2194,13 +2828,13 @@
     height: 20.5rem;
     background-color: #fff;
   }
-  
+
   .team_body3_img {
     margin-left: 15px;
     margin-top: 14px;
     width: 14rem;
   }
-  
+
   .team_body3_names {
     padding: 9px;
     width: 10rem;
@@ -2209,38 +2843,38 @@
     top: 74.1rem;
     left: 4rem;
   }
-  
+
   .team_body3_firstname {
     font-size: 1.2rem;
     margin-left: 15px;
   }
-  
+
   .team_body3_work {
     font-size: 1rem;
     letter-spacing: 1px;
     margin-left: 2px;
   }
-  
+
   .team_body3_icons {
     margin-top: 8px;
     margin-left: 82px;
     display: flex;
   }
-  
+
   .team_body3_facebook {
     font-size: 16px;
   }
-  
+
   .team_body3_twitter {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body3_instagram {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body4 {
     width: 15rem;
     margin-left: 15px;
@@ -2249,13 +2883,13 @@
     height: 20.5rem;
     background-color: #fff;
   }
-  
+
   .team_body4_img {
     margin-left: 15px;
     margin-top: 14px;
     width: 14rem;
   }
-  
+
   .team_body4_names {
     padding: 9px;
     width: 10rem;
@@ -2264,37 +2898,37 @@
     top: 103rem;
     left: 4.1rem;
   }
-  
+
   .team_body4_firstname {
     font-size: 1.2rem;
     margin-left: 12px;
   }
-  
+
   .team_body4_work {
     font-size: 1rem;
     letter-spacing: 1px;
   }
-  
+
   .team_body4_icons {
     margin-top: 2px;
     margin-left: 84px;
     display: flex;
   }
-  
+
   .team_body4_facebook {
     font-size: 16px;
   }
-  
+
   .team_body4_twitter {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body4_instagram {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body5 {
     width: 15rem;
     margin-left: 10px;
@@ -2303,13 +2937,13 @@
     height: 20.5rem;
     background-color: #fff;
   }
-  
+
   .team_body5_img {
     margin-left: 20px;
     margin-top: 34px;
     width: 14rem;
   }
-  
+
   .team_body5_names {
     padding: 9px;
     width: 10rem;
@@ -2318,39 +2952,38 @@
     top: 131rem;
     left: 63px;
   }
-  
+
   .team_body5_firstname {
     font-size: 1.2rem;
     margin-left: 16px;
   }
-  
+
   .team_body5_work {
     font-size: 1rem;
     letter-spacing: 1px;
     margin-left: 2px;
-  
   }
-  
+
   .team_body5_icons {
     margin-top: 2px;
     margin-left: 87px;
     display: flex;
   }
-  
+
   .team_body5_facebook {
     font-size: 16px;
   }
-  
+
   .team_body5_twitter {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body5_instagram {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body6 {
     width: 15rem;
     margin-left: 13px;
@@ -2359,13 +2992,13 @@
     height: 20.5rem;
     background-color: #fff;
   }
-  
+
   .team_body6_img {
     margin-left: 20px;
     margin-top: 14px;
     width: 14rem;
   }
-  
+
   .team_body6_names {
     padding: 9px;
     width: 10rem;
@@ -2374,54 +3007,54 @@
     top: 159.3rem;
     left: 4.3rem;
   }
-  
+
   .team_body6_firstname {
     font-size: 1.2rem;
     margin-left: 22px;
   }
-  
+
   .team_body6_work {
     font-size: 1rem;
     letter-spacing: 1px;
   }
-  
+
   .team_body6_icons {
     margin-top: 9px;
     margin-left: 91px;
     display: flex;
   }
-  
+
   .team_body6_facebook {
     font-size: 16px;
   }
-  
+
   .team_body6_twitter {
     font-size: 16px;
     margin-left: 19px;
   }
-  
+
   .team_body6_instagram {
     font-size: 16px;
     margin-left: 19px;
   }
 
-  .servives_h2{
+  .servives_h2 {
     margin-top: 15rem;
     margin-left: 2.8rem;
     font-size: 2rem;
   }
 
-  .sm_p2{
+  .sm_p2 {
     font-size: 20px;
     margin-top: 5px;
   }
 
-  .text-box h2{
+  .text-box h2 {
     font-weight: 600;
     font-size: 1.6rem;
   }
 
-  .sm_p{
+  .sm_p {
     font-size: 20px;
     margin-top: 5px;
   }
@@ -2430,36 +3063,193 @@
     font-size: 18.5px;
   }
 
-  .timeline{
+  .timeline {
     margin: 50px auto;
   }
   .timeline::after {
     left: 31px;
   }
   .container {
-   width: 100%;
-   padding-left: 80px;
-   padding-right: 25px;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px;
   }
   .text-box {
     font-size: 13px;
   }
-  .text-box small{
+  .text-box small {
     margin-bottom: 10px;
   }
   .right-container {
     left: 0;
   }
 
-.left_container_logo, .right_container_logo {
-  left: 10px;
-}
-
-.left_container_arrow, .right_container_arrow {
-   border-right: 15px solid #00a3ba;
-  border-left: 0;
-  left: -15px;
+  .left_container_logo,
+  .right_container_logo {
+    left: 10px;
   }
 
+  .left_container_arrow,
+  .right_container_arrow {
+    border-right: 15px solid #00a3ba;
+    border-left: 0;
+    left: -15px;
+  }
 
+  .contact_div2 {
+    margin-top: 15rem;
+  }
+
+  .first_part {
+    margin-top: 50rem;
+    width: 20rem;
+    height: 31rem;
+    background: #ffffff;
+    margin-left: 1.2rem;
+  }
+
+  .contact_logo1_div1 {
+    margin-top: 1px;
+    margin-left: 2px;
+  }
+
+  .contact_logo1_div {
+    display: flex;
+  }
+
+  .contact_logo1 {
+    font-size: 1.7rem;
+    color: #00a3ba;
+  }
+
+  .contact_logo1_p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 20px;
+    
+    }
+
+  .logo1_p {
+    font-size: 1.3rem;
+    margin-left: 22px;
+    margin-top: 10px;
+    
+  }
+
+  .contact_logo2_div2 {
+    margin-top: 60px;
+    margin-left: 2px;
+  }
+
+  .contact_logo2_div {
+    display: flex;
+  }
+
+  .contact_logo2 {
+    font-size: 1.7rem;
+    color: #00a3ba;
+  }
+
+  .contact_logo2_p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+
+  .logo2_p {
+    font-size: 1.3rem;
+    margin-left: 22px;
+    margin-top: 10px;
+  }
+
+  .contact_logo3_div3 {
+    margin-top: 60px;
+    margin-left: 2px;
+  }
+
+  .contact_logo3_div {
+    display: flex;
+    
+  }
+
+  .contact_logo3 {
+    font-size: 1.7rem;
+    color: #00a3ba;
+    
+  }
+
+  .contact_logo3_p {
+    font-size: 1.3rem;
+    margin-left: 22px;
+    margin-top: 4px;
+  }
+
+  .logo3_p {
+    font-size: 1.6rem;
+    margin-left: 22px;
+    margin-top: 10px;
+  }
+
+  .second_part {
+    margin-top: -71rem;
+    height: 28rem;
+    width: 20rem;
+    padding: 0.3px;
+    background: #e5e5e5;
+    margin-left: 1.3rem;
+  }
+
+  .contact_h2 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-left: 3.8rem;
+  }
+
+  .contact_name {
+    padding: 11px;
+    width: 15.6rem;
+    margin-top: 30px;
+    margin-left: 14px;
+    outline: none;
+  }
+
+  .contact_email {
+    padding: 11px;
+    width: 15.6rem;
+    margin-top: 30px;
+    margin-left: 14px;
+    outline: none;
+  }
+
+  .contact_textarea {
+    padding: 11px;
+    width: 15.6rem;
+    margin-top: 30px;
+    margin-left: 14px;
+    outline: none;
+  }
+
+  .general_input_div {
+    padding: 5px;
+    margin-top: 0.5px;
+    margin-left: 1rem;
+  }
+
+  .contact_button {
+    padding: 11px;
+    width: 14rem;
+    margin-top: 30px;
+    margin-left: 23px;
+    cursor: pointer;
+    background: #00a3ba;
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 5px;
+    transition: .4s;
+  }
+
+  .contact_button:hover {
+    background: white;
+  }
 }

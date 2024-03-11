@@ -4,15 +4,13 @@ import { useState } from "react";
 import Img4 from "./pass 3.jpeg";
 import Img5 from "./pass 7.jpeg";
 import { FaFacebookF } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
+import { IoCallOutline } from "react-icons/io5";
+import { MdLocationOn } from "react-icons/md";
+import { LuClock3 } from "react-icons/lu";
+import {FaTwitter} from "react-icons/fa"
+import {FaSnapchat} from "react-icons/fa"
 import { Link } from "react-router-dom";
-
-
-
-
-
-
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -236,12 +234,18 @@ const Nav = () => {
             <div className="container left-container">
               <div className="text-box">
                 <h2>Audio/Visual Production</h2>
-                <small className="sm_p">Visual Stories, Vibranrt Emotions</small>
+                <small className="sm_p">
+                  Visual Stories, Vibranrt Emotions
+                </small>
                 <p className="text_box_p">
                   {" "}
-                  We deliver state of the arts audio-visual production from short
-                films, music videos, skits and television shows, e.t.c.
-                <p> Our work has been featured in a variety of media, including television, and online platforms.We are passionate</p>
+                  We deliver state of the arts audio-visual production from
+                  short films, music videos, skits and television shows, e.t.c.
+                  <p>
+                    {" "}
+                    Our work has been featured in a variety of media, including
+                    television, and online platforms.We are passionate
+                  </p>
                 </p>
                 <span className="left_container_arrow"></span>
               </div>
@@ -251,8 +255,11 @@ const Nav = () => {
                 <h2>Record Labels</h2>
                 <small className="sm_p">Only the best music inside.</small>
                 <p className="text_box_p">
-                Timeline Records is a leading independent record label, dedicated to promoting innovative and diverse music.
-                The label is also committed to nurturing talent and supporting its artist, providing them with the resources and opportunities they need to succeed.
+                  Timeline Records is a leading independent record label,
+                  dedicated to promoting innovative and diverse music. The label
+                  is also committed to nurturing talent and supporting its
+                  artist, providing them with the resources and opportunities
+                  they need to succeed.
                 </p>
                 <span className="right_container_arrow"></span>
               </div>
@@ -260,10 +267,15 @@ const Nav = () => {
             <div className="container left-container">
               <div className="text-box">
                 <h2>Off-Stage Commentry</h2>
-                <small className="sm_p2">Let make the difference with our vocals</small>
+                <small className="sm_p2">
+                  Let make the difference with our vocals
+                </small>
                 <p className="text_box_p">
-                We are sure of giving you the most granded voice over solutions for your business.
-                We are able to provide commentary on wide range of topics. We provide a unique perspective on the events we cover. Our goal is to provide the most up-to-date and accurate information.
+                  We are sure of giving you the most granded voice over
+                  solutions for your business. We are able to provide commentary
+                  on wide range of topics. We provide a unique perspective on
+                  the events we cover. Our goal is to provide the most
+                  up-to-date and accurate information.
                 </p>
                 <span className="left_container_arrow"></span>
               </div>
@@ -271,17 +283,106 @@ const Nav = () => {
             <div className="container right-container">
               <div className="text-box">
                 <h2>Media IT Solutions</h2>
-                <small className="sm_p2">Empowering your business with media solutions</small>
+                <small className="sm_p2">
+                  Empowering your business with media solutions
+                </small>
                 <p className="text_box_p">
-                We offer a full-service media solutions provider, specializing in the creation and delievery of engaging and immersive content for a variety of platforms. We work with businessess of all sizes
-                We also design and develop high end websites for clients and
-                comfort demands.
+                  We offer a full-service media solutions provider, specializing
+                  in the creation and delievery of engaging and immersive
+                  content for a variety of platforms. We work with businessess
+                  of all sizes We also design and develop high end websites for
+                  clients and comfort demands.
                 </p>
                 <span className="right_container_arrow"></span>
               </div>
             </div>
           </div>
         </section>
+
+        <div id="contact">
+          <div className="contact_img">
+            <div className="contact_div2">
+              <div className="first_part">
+                <div className="contact_logo1_div1">
+                  <div className="contact_logo1_div">
+                    <IoCallOutline className="contact_logo1" />
+                    <p className="contact_logo1_p">CALL US</p>
+                  </div>
+                  <p className="logo1_p">1 (234) 567-891, 1 (234) 987-654</p>
+                </div>
+                <div className="contact_logo2_div2">
+                  <div className="contact_logo2_div">
+                    <MdLocationOn className="contact_logo2" />
+                    <p className="contact_logo2_p">LOCATION</p>
+                  </div>
+                  <p className="logo2_p">
+                    3, Ogunshina Street, Anthony, Lagos state.
+                  </p>
+                  <p className="logo2_p">090 23-20-32-54</p>
+                </div>
+                <div className="contact_logo3_div3">
+                  <div className="contact_logo2_div">
+                    <LuClock3 className="contact_logo3" />
+                    <p className="contact_logo3_p">BUSINESS HOURS</p>
+                  </div>
+                  <p className="logo3_p">
+                    Mon-Fri …… 9 am-5 pm, Sat, Sun ....…
+                  </p>
+                  <p className="logo3_p">Closed</p>
+                </div>
+              </div>
+
+              <div className="second_part">
+                <div className="">
+                  <div className="contact_h2">
+                    <p>CONTACT US</p>
+                  </div>
+                  <div className="general_input_div">
+                    <input
+                      type="text"
+                      name="to_name"
+                      placeholder="Enter Your Name"
+                      className="contact_name"
+                    />
+                    <br />
+                    <input
+                      type="email"
+                      name="from_name"
+                      placeholder="Enter Your Email"
+                      className="contact_email"
+                    />
+                    <br />
+                    <textarea name="message" placeholder="Enter Your Message" className="contact_textarea" />
+                    <br />
+                    <input type="submit" value="SUBMIT" className="contact_button"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer>
+      <a href="#" className='footer__logo'>TIMELINE</a>
+
+      <ul className='permalinks'>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Team</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+
+        <div className="footer__socials">
+          <a href="https://www.snapchat.com/add/svhick20" target="_blank"><FaSnapchat /></a>
+          <a href="https://www.instagram.com/simplevhick_" target="_blank"><BsInstagram /></a>
+          <a href="https://twitter.com/simplevhick" target="_blank"><FaTwitter/></a>
+        </div>
+
+        <div className="footer__copyright">
+          <small>&copy; TIMELINE. All rights reserved.</small>
+        </div>
+    </footer>
       </div>
     </section>
   );
