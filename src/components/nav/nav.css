@@ -1441,6 +1441,7 @@ footer a {
 
   .text_box_p {
     font-size: 18.5px;
+    margin-top: 10px;
   }
 
   .timeline {
@@ -1454,7 +1455,7 @@ footer a {
     padding-left: 80px;
     padding-right: 25px;
   }
-  .text-box {
+  .text-box { 
     font-size: 13px;
   }
   .text-box small {
@@ -1876,7 +1877,7 @@ footer {
     font-size: 35px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    margin-left: 3rem;
+    margin-left: 2.1rem;
     margin-top: 2rem;
   }
 
@@ -2325,7 +2326,7 @@ footer {
     }
 
   .logo1_p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-left: 22px;
     margin-top: 10px;
     
@@ -2352,7 +2353,7 @@ footer {
   }
 
   .logo2_p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-left: 22px;
     margin-top: 10px;
   }
@@ -2374,13 +2375,12 @@ footer {
   }
 
   .contact_logo3_p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-left: 22px;
-    margin-top: 4px;
   }
 
   .logo3_p {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     margin-left: 22px;
     margin-top: 10px;
   }

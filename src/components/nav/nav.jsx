@@ -234,9 +234,9 @@ const Nav = () => {
             <div className="container left-container">
               <div className="text-box">
                 <h2>Audio/Visual Production</h2>
-                <small className="sm_p">
+                {/* <small className="sm_p">
                   Visual Stories, Vibranrt Emotions
-                </small>
+                </small> */}
                 <p className="text_box_p">
                   {" "}
                   We deliver state of the arts audio-visual production from
@@ -253,7 +253,7 @@ const Nav = () => {
             <div className="container right-container">
               <div className="text-box">
                 <h2>Record Labels</h2>
-                <small className="sm_p">Only the best music inside.</small>
+                {/* <small className="sm_p">Only the best music inside.</small> */}
                 <p className="text_box_p">
                   Timeline Records is a leading independent record label,
                   dedicated to promoting innovative and diverse music. The label
@@ -267,9 +267,9 @@ const Nav = () => {
             <div className="container left-container">
               <div className="text-box">
                 <h2>Off-Stage Commentry</h2>
-                <small className="sm_p2">
+                {/* <small className="sm_p2">
                   Let make the difference with our vocals
-                </small>
+                </small> */}
                 <p className="text_box_p">
                   We are sure of giving you the most granded voice over
                   solutions for your business. We are able to provide commentary
@@ -283,9 +283,9 @@ const Nav = () => {
             <div className="container right-container">
               <div className="text-box">
                 <h2>Media IT Solutions</h2>
-                <small className="sm_p2">
+                {/* <small className="sm_p2">
                   Empowering your business with media solutions
-                </small>
+                </small> */}
                 <p className="text_box_p">
                   We offer a full-service media solutions provider, specializing
                   in the creation and delievery of engaging and immersive
