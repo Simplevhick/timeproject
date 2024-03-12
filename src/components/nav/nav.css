@@ -668,6 +668,7 @@
 
 .contact_logo1 {
   font-size: 1.5rem;
+  color:#00a3ba;
 }
 
 .contact_logo1_p {
@@ -693,6 +694,7 @@
 
 .contact_logo2 {
   font-size: 1.5rem;
+  color:#00a3ba;
 }
 
 .contact_logo2_p {
@@ -718,6 +720,7 @@
 
 .contact_logo3 {
   font-size: 1.5rem;
+  color:#00a3ba;
 }
 
 .contact_logo3_p {
@@ -846,6 +849,132 @@ footer a {
 
 }
 
+.bodyp_h1{
+  font-size: 1.1rem;
+  margin-left: 32rem;
+  margin-top: 2rem;
+  color: #00a3ba;
+}
+
+.body_polo_p{
+  font-size: 0.9rem;
+  width: 53rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #b2beb5;
+  margin-top: 20px;
+  margin-left: 16rem;
+}
+
+.body_polo_p1{
+  font-size: 0.9rem;
+  width: 53rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #b2beb5;
+  margin-top: 1px;
+  margin-left: 17.3rem;
+}
+
+.body_polo_p2{
+  font-size: 0.9rem;
+  width: 53rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #b2beb5;
+  margin-top: 1px;
+  margin-left: 23rem;
+}
+
+.bodyp_h2{
+  font-size: 1.5rem;
+  margin-left: 29rem;
+  margin-top: 2rem;
+  color: #00a3ba;
+}
+
+.Service_section{
+  display: grid;
+  place-items: center;
+}
+
+.section-heading{
+  font-size: 2.3rem;
+  margin-left: -3rem;
+  margin-top: 2rem;
+  color: #00a3ba;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.column{
+  width: 100%;
+  padding: 0 1em 1em 1em;
+  text-align: center;
+}
+
+.card{
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  padding: 2em 1.5em;
+  background: linear-gradient(#ffffff 50%, #00a3ba 50%);
+  background-size: 100% 200%;
+  background-position: 0 2.5%;
+  border-radius: 5px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: 0.5s;
+} 
+
+h3{
+   font-size: 20px;
+   font-weight: 600;
+   color: #1f194c;
+   margin: 1em 0;
+}
+
+p{
+  color: #575a7b;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+
+.icon-wrapper{
+  background-color: #00a3ba;
+  position: relative;
+  margin: auto;
+  font-size: 30px;
+  height: 2.5em;
+  width: 2.5em;
+  color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+}
+
+.card:hover {
+  background-position: 0 100%;
+}
+
+.card:hover .icon-wrapper{
+  background-color: #ffffff;
+  color: black;
+}
+
+.card:hover h3{
+  color: #ffffff;
+}
+
+.card:hover p{
+  color: #f0f0f0;
+}
 
 
 
@@ -862,17 +991,16 @@ footer a {
 
 
 
+@media screen and (min-width: 992px){
+    .Service_section{
+        padding: 1em 3em;
+    }
 
-
-
-
-
-
-
-
-
-
-
+    .column {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+    }
+}
 
 
 
@@ -1666,6 +1794,105 @@ footer {
 .footer__copyright{
   font-size: 1rem;
 }
+
+.Service_section{
+    padding: 0 2em;
+}
+
+.column {
+  flex: 0 50%;
+  max-width: 50%;
+
+}
+
+.bodyp_h1{
+  font-size: 1.1rem;
+  margin-left: 12rem;
+  margin-top: 2rem;
+  color: #00a3ba;
+}
+
+.body_polo_p{
+  font-size: 0.9rem;
+  width: 30rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #b2beb5;
+  margin-top: 20px;
+  margin-left: 3.1rem;
+}
+
+.body_polo_p1{
+  font-size: 0.9rem;
+  width: 30rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #b2beb5;
+  margin-top: 1px;
+  margin-left: 3.1rem;
+}
+
+.body_polo_p2{
+  font-size: 0.9rem;
+  width: 30rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #b2beb5;
+  margin-top: 1px;
+  margin-left: 3.1rem;
+}
+
+.bodyp_h2{
+  font-size: 1.5rem;
+  margin-left: 29rem;
+  margin-top: 2rem;
+  color: #00a3ba;
+}
+
+.Service_section{
+  padding: 1em 3em;
+}
+
+.section-heading{
+  margin-left: 1rem;
+}
+
+.row{
+  display: grid; 
+    
+   margin-top: 1.5rem;
+}
+
+.card{
+  border: 1px solid black;
+  width: 30rem;
+  height: 100%;
+  padding: 2em 1.5em;
+  background: linear-gradient(#ffffff 50%, #00a3ba 50%);
+  background-size: 100% 200%;
+  background-position: 0 2.5%;
+  border-radius: 5px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: 0.5s;
+} 
+
+.icon-wrapper{
+  background-color: #00a3ba;
+  position: relative;
+  margin: auto;
+  font-size: 30px;
+  height: 2.5em;
+  width: 2.5em;
+  color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+}
+
+
+
 
 
 }
@@ -2471,6 +2698,132 @@ footer {
 }
 
 
+.bodyp_h1{
+  font-size: 0.5rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  color: #00a3ba;
+}
+
+.body_polo_p{
+  font-size: 0.9rem;
+  width: 35rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #b2beb5;
+  margin-top: 20px;
+  margin-left: 2rem;
+}
+
+.body_polo_p1{
+  font-size: 0.9rem;
+  width: 35rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #b2beb5;
+  margin-top: 1px;
+  margin-left: 2rem;
+}
+
+.body_polo_p2{
+  font-size: 0.9rem;
+  width: 35rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #b2beb5;
+  margin-top: 1px;
+  margin-left: 2rem;
+}
+
+
+.bodyp_h1{
+  font-size: 0.9rem;
+  margin-left: 6rem;
+  margin-top: 2rem;
+  color: #00a3ba;
+}
+
+.body_polo_p{
+  font-size: 0.72rem;
+  width: 23rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #b2beb5;
+  margin-top: 20px;
+  margin-left: 1rem;
+}
+
+.body_polo_p1{
+  font-size: 0.72rem;
+  width: 23rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #b2beb5;
+  margin-top: 1px;
+  margin-left: 1rem;
+}
+
+.body_polo_p2{
+  font-size: 0.72rem;
+  width: 23rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #b2beb5;
+  margin-top: 1px;
+  margin-left: 1rem;
+}
+
+.bodyp_h2{
+  font-size: 1.5rem;
+  margin-left: 29rem;
+  margin-top: 2rem;
+  color: #00a3ba;
+}
+
+.Service_section{
+  padding: 1em 3em;
+}
+
+.section-heading{
+  margin-left: 1rem;
+}
+
+.row{
+  display: grid; 
+    
+   margin-top: 1.5rem;
+}
+
+.card{
+  border: 1px solid black;
+  width: 18rem;
+  height: 100%;
+  padding: 2em 1.5em;
+  background: linear-gradient(#ffffff 50%, #00a3ba 50%);
+  background-size: 100% 200%;
+  background-position: 0 2.5%;
+  border-radius: 5px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: 0.5s;
+} 
+
+.icon-wrapper{
+  background-color: #00a3ba;
+  position: relative;
+  margin: auto;
+  font-size: 30px;
+  height: 2.5em;
+  width: 2.5em;
+  color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+}
+
+
+
 
   
 }
@@ -3236,6 +3589,96 @@ footer {
     margin-left: 1rem;
   }
 
+  .bodyp_h1{
+    font-size: 0.5rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    color: #00a3ba;
+  }
+  
+  .body_polo_p{
+    font-size: 0.9rem;
+    width: 35rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #b2beb5;
+    margin-top: 20px;
+    margin-left: 2rem;
+  }
+  
+  .body_polo_p1{
+    font-size: 0.9rem;
+    width: 35rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #b2beb5;
+    margin-top: 1px;
+    margin-left: 2rem;
+  }
+  
+  .body_polo_p2{
+    font-size: 0.9rem;
+    width: 35rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #b2beb5;
+    margin-top: 1px;
+    margin-left: 2rem;
+  }
+  
+  
+  .bodyp_h1{
+    font-size: 0.9rem;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    color: #00a3ba;
+  }
+  
+  .body_polo_p{
+    font-size: 0.74rem;
+    width: 21rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #b2beb5;
+    margin-top: 20px;
+    margin-left: 1rem;
+  }
+  
+  .body_polo_p1{
+    font-size: 0.74rem;
+    width: 21rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #b2beb5;
+    margin-top: 1px;
+    margin-left: 1rem;
+  }
+  
+  .body_polo_p2{
+    font-size: 0.74rem;
+    width: 21rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #b2beb5;
+    margin-top: 1px;
+    margin-left: 1rem;
+  }
+  
+  .bodyp_h2{
+    font-size: 1.5rem;
+    margin-left: 29rem;
+    margin-top: 2rem;
+    color: #00a3ba;
+  }
+  
+  .Service_section{
+    padding: 1em 3em;
+  }
+  
+  .section-heading{
+    margin-left: 0.1px;
+  }
+
   .contact_button {
     padding: 11px;
     width: 14rem;
@@ -3252,4 +3695,50 @@ footer {
   .contact_button:hover {
     background: white;
   }
+
+
+.row{
+  display: grid; 
+    
+   margin-top: 1.5rem;
+}
+
+.card{
+  border: 1px solid black;
+  width: 15rem;
+  height: 100%;
+  padding: 2em 1.5em;
+  background: linear-gradient(#ffffff 50%, #00a3ba 50%);
+  background-size: 100% 200%;
+  background-position: 0 2.5%;
+  border-radius: 5px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: 0.5s;
+} 
+
+.icon-wrapper{
+  background-color: #00a3ba;
+  position: relative;
+  margin: auto;
+  font-size: 30px;
+  height: 2.5em;
+  width: 2.5em;
+  color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
 }
