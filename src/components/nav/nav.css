@@ -201,7 +201,7 @@
 }
 
 .team_body1_icons {
-  margin-top: 19px;
+  margin-top: 26px;
   margin-left: 80px;
   display: flex;
 }
@@ -256,7 +256,7 @@
 }
 
 .team_body2_icons {
-  margin-top: 19px;
+  margin-top: 26px;
   margin-left: 78px;
   display: flex;
 }
@@ -311,7 +311,7 @@
 }
 
 .team_body3_icons {
-  margin-top: 19px;
+  margin-top: 26px;
   margin-left: 87px;
   display: flex;
 }
@@ -365,7 +365,7 @@
 }
 
 .team_body4_icons {
-  margin-top: 18px;
+  margin-top: 26px;
   margin-left: 85px;
   display: flex;
 }
@@ -420,7 +420,7 @@
 }
 
 .team_body5_icons {
-  margin-top: 18px;
+  margin-top: 26px;
   margin-left: 83px;
   display: flex;
 }
@@ -474,7 +474,7 @@
 }
 
 .team_body6_icons {
-  margin-top: 18px;
+  margin-top: 26px;
   margin-left: 82px;
   display: flex;
 }
@@ -668,7 +668,7 @@
 
 .contact_logo1 {
   font-size: 1.5rem;
-  color:#00a3ba;
+  color: #00a3ba;
 }
 
 .contact_logo1_p {
@@ -694,7 +694,7 @@
 
 .contact_logo2 {
   font-size: 1.5rem;
-  color:#00a3ba;
+  color: #00a3ba;
 }
 
 .contact_logo2_p {
@@ -720,7 +720,7 @@
 
 .contact_logo3 {
   font-size: 1.5rem;
-  color:#00a3ba;
+  color: #00a3ba;
 }
 
 .contact_logo3_p {
@@ -748,12 +748,11 @@
   margin-left: 6rem;
 }
 
-.contact_h5{
+.contact_h5 {
   font-size: 2rem;
   margin-top: 2rem;
   margin-left: 0.5rem;
 }
-
 
 .contact_name {
   padding: 10px;
@@ -800,11 +799,11 @@
 }
 
 footer {
-  background: #00a3ba;   
+  background: #00a3ba;
   padding: 3rem 0;
   text-align: center;
   font-size: 0.9rem;
-  margin-top: 9rem;         
+  margin-top: 9rem;
 }
 
 footer a {
@@ -818,20 +817,19 @@ footer a {
   display: inline-block;
 }
 
-.footer__logo_last{
+.footer__logo_last {
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 1rem;
   display: inline-block;
 }
 
-
 .permalinks {
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
-  justify-content: center;  
+  justify-content: center;
   font-size: 1rem;
-  margin-top: 4rem;   
+  margin-top: 4rem;
   gap: 2rem;
   margin: 0 auto 2rem;
 }
@@ -853,32 +851,31 @@ footer a {
 }
 
 .footer__socials a:hover {
-  background: transparent;   
+  background: transparent;
   color: #1f1f38;
-  border-color:  #1f1f38;   
+  border-color: #1f1f38;
 }
 
 .footer__copyright {
-   margin-bottom: 0.1px;
-   color: #1f1f38;
-
+  margin-bottom: 0.1px;
+  color: #1f1f38;
 }
 
-.bodyp_h1{
+.bodyp_h1 {
   font-size: 1.1rem;
   margin-left: 32rem;
   margin-top: 2rem;
   color: #00a3ba;
 }
 
-.bodyp_h1_1{
+.bodyp_h1_1 {
   font-size: 1.1rem;
   margin-left: 32rem;
   margin-top: 2rem;
   color: #00a3ba;
 }
 
-.body_polo_p{
+.body_polo_p {
   font-size: 0.9rem;
   width: 53rem;
   font-family: "Poppins", sans-serif;
@@ -888,7 +885,7 @@ footer a {
   margin-left: 16rem;
 }
 
-.body_polo_p1{
+.body_polo_p1 {
   font-size: 0.9rem;
   width: 53rem;
   font-family: "Poppins", sans-serif;
@@ -898,7 +895,7 @@ footer a {
   margin-left: 17.3rem;
 }
 
-.body_polo_p2{
+.body_polo_p2 {
   font-size: 0.9rem;
   width: 53rem;
   font-family: "Poppins", sans-serif;
@@ -908,38 +905,38 @@ footer a {
   margin-left: 23rem;
 }
 
-.bodyp_h2{
+.bodyp_h2 {
   font-size: 1.5rem;
   margin-left: 29rem;
   margin-top: 2rem;
   color: #00a3ba;
 }
 
-.Service_section{
+.Service_section {
   display: grid;
   place-items: center;
 }
 
-.section-heading{
+.section-heading {
   font-size: 2.3rem;
   margin-left: -3rem;
   margin-top: 2rem;
   color: #00a3ba;
 }
 
-.row{
+.row {
   display: flex;
   flex-wrap: wrap;
   margin-top: 1.5rem;
 }
 
-.column{
+.column {
   width: 100%;
   padding: 0 1em 1em 1em;
   text-align: center;
 }
 
-.card{
+.card {
   border: 1px solid black;
   width: 100%;
   height: 100%;
@@ -951,23 +948,23 @@ footer a {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
   cursor: pointer;
   transition: 0.5s;
-} 
-
-h3{
-   font-size: 20px;
-   font-weight: 600;
-   color: #1f194c;
-   margin: 1em 0;
 }
 
-p{
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f194c;
+  margin: 1em 0;
+}
+
+p {
   color: #575a7b;
   font-size: 15px;
   line-height: 1.6;
   letter-spacing: 0.03em;
 }
 
-.icon-wrapper{
+.icon-wrapper {
   background-color: #00a3ba;
   position: relative;
   margin: auto;
@@ -985,66 +982,29 @@ p{
   background-position: 0 100%;
 }
 
-.card:hover .icon-wrapper{
+.card:hover .icon-wrapper {
   background-color: #ffffff;
   color: black;
 }
 
-.card:hover h3{
+.card:hover h3 {
   color: #ffffff;
 }
 
-.card:hover p{
+.card:hover p {
   color: #f0f0f0;
 }
 
+@media screen and (min-width: 992px) {
+  .Service_section {
+    padding: 1em 3em;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 992px){
-    .Service_section{
-        padding: 1em 3em;
-    }
-
-    .column {
-      flex: 0 0 33.33%;
-      max-width: 33.33%;
-    }
+  .column {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 600px) {
   .Navbar > .nav-items {
@@ -1612,7 +1572,7 @@ p{
     padding-left: 80px;
     padding-right: 25px;
   }
-  .text-box { 
+  .text-box {
     font-size: 13px;
   }
   .text-box small {
@@ -1677,14 +1637,12 @@ p{
     font-size: 1.8rem;
     font-weight: 600;
     margin-left: 20px;
-    
-    }
+  }
 
   .logo1_p {
     font-size: 1.5rem;
     margin-left: 22px;
     margin-top: 10px;
-    
   }
 
   .contact_logo2_div2 {
@@ -1725,7 +1683,6 @@ p{
   .contact_logo3 {
     font-size: 2rem;
     color: #00a3ba;
-
   }
 
   .contact_logo3_p {
@@ -1755,7 +1712,7 @@ p{
     margin-left: 5.5rem;
   }
 
-  .contact_h5{
+  .contact_h5 {
     font-size: 2.5rem;
     margin-top: 2rem;
     margin-left: 1.2rem;
@@ -1801,7 +1758,7 @@ p{
     font-size: 1rem;
     font-weight: 300;
     border-radius: 5px;
-    transition: .4s;
+    transition: 0.4s;
   }
 
   .contact_button:hover {
@@ -1811,166 +1768,157 @@ p{
   .permalinks {
     flex-direction: column;
     gap: 1.5rem;
-    font-size: 1rem; 
-}   
+    font-size: 1rem;
+  }
 
-.footer__socials {
+  .footer__socials {
     margin-bottom: 2.6rem;
-}
+  }
 
-footer {
-  background: #00a3ba;   
-  padding: 3rem 0;
-  text-align: center;
-  font-size: 0.9rem;
-  margin-top: 39rem;         
-}
+  footer {
+    background: #00a3ba;
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 39rem;
+  }
 
-.footer__copyright{
-  font-size: 1rem;
-}
+  .footer__copyright {
+    font-size: 1rem;
+  }
 
-.footer__logo{
-  font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 1rem;
-  display: inline-block;
-}
+  .footer__logo {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
 
+  footer a {
+    color: #1f1f38;
+  }
 
-/* footer {
-  background: #00a3ba;   
-  padding: 3rem 0;
-  text-align: center;
-  font-size: 0.9rem;
-  margin-top: 32rem;         
-} */
+  .footer__logo_last {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
 
-footer a {
-  color: #1f1f38;
-}
+  footer a {
+    color: #1f1f38;
+  }
 
-.footer__logo_last{
-  font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 1rem;
-  display: inline-block;
-}
-
-
-/* footer {
-  background: #00a3ba;   
-  padding: 3rem 0;
-  text-align: center;
-  font-size: 0.9rem;
-  margin-top: 50rem;         
-} */
-
-footer a {
-  color: #1f1f38;
-}
-
-.Service_section{
+  .Service_section {
     padding: 0 2em;
-}
+  }
 
-.column {
-  flex: 0 50%;
-  max-width: 50%;
+  .column {
+    flex: 0 50%;
+    max-width: 50%;
+  }
 
-}
+  .bodyp_h1 {
+    font-size: 1.1rem;
+    margin-left: 12rem;
+    margin-top: 2rem;
+    color: #00a3ba;
+  }
 
-.bodyp_h1{
-  font-size: 1.1rem;
-  margin-left: 12rem;
-  margin-top: 2rem;
-  color: #00a3ba;
-}
+  .body_polo_p {
+    font-size: 0.9rem;
+    width: 30rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #b2beb5;
+    margin-top: 20px;
+    margin-left: 4.5rem;
+  }
 
-.body_polo_p{
-  font-size: 0.9rem;
-  width: 30rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #b2beb5;
-  margin-top: 20px;
-  margin-left: 4.5rem;
-}
+  .body_polo_p1 {
+    font-size: 0.9rem;
+    width: 30rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #b2beb5;
+    margin-top: 1px;
+    margin-left: 4.5rem;
+  }
 
-.body_polo_p1{
-  font-size: 0.9rem;
-  width: 30rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #b2beb5;
-  margin-top: 1px;
-  margin-left: 4.5rem;
-}
+  .body_polo_p2 {
+    font-size: 0.9rem;
+    width: 30rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #b2beb5;
+    margin-top: 1px;
+    margin-left: 4.5rem;
+  }
 
-.body_polo_p2{
-  font-size: 0.9rem;
-  width: 30rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #b2beb5;
-  margin-top: 1px;
-  margin-left: 4.5rem;
-}
+  .bodyp_h2 {
+    font-size: 1.5rem;
+    margin-left: 29rem;
+    margin-top: 2rem;
+    color: #00a3ba;
+  }
 
-.bodyp_h2{
-  font-size: 1.5rem;
-  margin-left: 29rem;
-  margin-top: 2rem;
-  color: #00a3ba;
-}
+  .Service_section {
+    padding: 1em 3em;
+  }
 
-.Service_section{
-  padding: 1em 3em;
-}
+  .section-heading {
+    margin-left: 1rem;
+  }
 
-.section-heading{
-  margin-left: 1rem;
-}
+  .row {
+    display: grid;
+    margin-top: 1.5rem;
+  }
 
-.row{
-  display: grid; 
-    
-   margin-top: 1.5rem;
-}
+  .card {
+    border: 1px solid black;
+    width: 30rem;
+    height: 100%;
+    padding: 2em 1.5em;
+    background: linear-gradient(#ffffff 50%, #00a3ba 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+  }
 
-.card{
-  border: 1px solid black;
-  width: 30rem;
-  height: 100%;
-  padding: 2em 1.5em;
-  background: linear-gradient(#ffffff 50%, #00a3ba 50%);
-  background-size: 100% 200%;
-  background-position: 0 2.5%;
-  border-radius: 5px;
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
-  cursor: pointer;
-  transition: 0.5s;
-} 
-
-.icon-wrapper{
-  background-color: #00a3ba;
-  position: relative;
-  margin: auto;
-  font-size: 30px;
-  height: 2.5em;
-  width: 2.5em;
-  color: #ffffff;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  transition: 0.5s;
-}
+  .icon-wrapper {
+    background-color: #00a3ba;
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+  }
 
 
 
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2623,14 +2571,12 @@ footer a {
     font-size: 1.4rem;
     font-weight: 600;
     margin-left: 20px;
-    
-    }
+  }
 
   .logo1_p {
     font-size: 1.2rem;
     margin-left: 22px;
     margin-top: 10px;
-    
   }
 
   .contact_logo2_div2 {
@@ -2666,13 +2612,11 @@ footer a {
 
   .contact_logo3_div {
     display: flex;
-    
   }
 
   .contact_logo3 {
     font-size: 1.7rem;
     color: #00a3ba;
-    
   }
 
   .contact_logo3_p {
@@ -2702,7 +2646,7 @@ footer a {
     margin-left: 5.3rem;
   }
 
-  .contact_h5{
+  .contact_h5 {
     font-size: 1.6rem;
     margin-top: 2rem;
     margin-left: 0.7rem;
@@ -2748,7 +2692,7 @@ footer a {
     font-size: 1rem;
     font-weight: 300;
     border-radius: 5px;
-    transition: .4s;
+    transition: 0.4s;
   }
 
   .contact_button:hover {
@@ -2758,184 +2702,174 @@ footer a {
   .permalinks {
     flex-direction: column;
     gap: 1.5rem;
-    font-size: 1rem; 
-}   
+    font-size: 1rem;
+  }
 
-.footer__socials {
+  .footer__socials {
     margin-bottom: 2.6rem;
+  }
+
+  .footer__copyright {
+    font-size: 1rem;
+  }
+
+  .bodyp_h1 {
+    font-size: 0.5rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    color: #00a3ba;
+  }
+
+  .body_polo_p {
+    font-size: 0.9rem;
+    width: 35rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #b2beb5;
+    margin-top: 20px;
+    margin-left: 2rem;
+  }
+
+  .body_polo_p1 {
+    font-size: 0.9rem;
+    width: 35rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #b2beb5;
+    margin-top: 1px;
+    margin-left: 2rem;
+  }
+
+  .body_polo_p2 {
+    font-size: 0.9rem;
+    width: 35rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #b2beb5;
+    margin-top: 1px;
+    margin-left: 2rem;
+  }
+
+  .bodyp_h1 {
+    font-size: 0.9rem;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    color: #00a3ba;
+  }
+
+  .bodyp_h1_1 {
+    font-size: 0.9rem;
+    margin-left: 7.8rem;
+    margin-top: 2rem;
+    color: #00a3ba;
+  }
+
+  .body_polo_p {
+    font-size: 0.72rem;
+    width: 23rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #b2beb5;
+    margin-top: 20px;
+    margin-left: 1.6rem;
+  }
+
+  .body_polo_p1 {
+    font-size: 0.72rem;
+    width: 23rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #b2beb5;
+    margin-top: 1px;
+    margin-left: 1.6rem;
+  }
+
+  .body_polo_p2 {
+    font-size: 0.72rem;
+    width: 23rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #b2beb5;
+    margin-top: 1px;
+    margin-left: 1.6rem;
+  }
+
+  .bodyp_h2 {
+    font-size: 1.5rem;
+    margin-left: 29rem;
+    margin-top: 2rem;
+    color: #00a3ba;
+  }
+
+  .Service_section {
+    padding: 1em 3em;
+  }
+
+  .section-heading {
+    margin-left: 1rem;
+  }
+
+  .row {
+    display: grid;
+
+    margin-top: 1.5rem;
+  }
+
+  .card {
+    border: 1px solid black;
+    width: 18rem;
+    height: 100%;
+    padding: 2em 1.5em;
+    background: linear-gradient(#ffffff 50%, #00a3ba 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .icon-wrapper {
+    background-color: #00a3ba;
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+  }
+
+  .footer__logo_last {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
+
+  footer {
+    background: #00a3ba;
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 32rem;
+  }
+
+  .footer_last {
+    background: #00a3ba;
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 7rem;
+  }
+
+  footer a {
+    color: #1f1f38;
+  }
 }
-
-.footer__copyright{
-  font-size: 1rem;
-}
-
-
-.bodyp_h1{
-  font-size: 0.5rem;
-  margin-left: 2rem;
-  margin-top: 2rem;
-  color: #00a3ba;
-}
-
-.body_polo_p{
-  font-size: 0.9rem;
-  width: 35rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #b2beb5;
-  margin-top: 20px;
-  margin-left: 2rem;
-}
-
-.body_polo_p1{
-  font-size: 0.9rem;
-  width: 35rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #b2beb5;
-  margin-top: 1px;
-  margin-left: 2rem;
-}
-
-.body_polo_p2{
-  font-size: 0.9rem;
-  width: 35rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #b2beb5;
-  margin-top: 1px;
-  margin-left: 2rem;
-}
-
-
-.bodyp_h1{
-  font-size: 0.9rem;
-  margin-left: 6rem;
-  margin-top: 2rem;
-  color: #00a3ba;
-}
-
-.bodyp_h1_1{
-  font-size: 0.9rem;
-  margin-left: 7.8rem;
-  margin-top: 2rem;
-  color: #00a3ba;
-}
-
-.body_polo_p{
-  font-size: 0.72rem;
-  width: 23rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #b2beb5;
-  margin-top: 20px;
-  margin-left: 1.6rem;
-}
-
-.body_polo_p1{
-  font-size: 0.72rem;
-  width: 23rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #b2beb5;
-  margin-top: 1px;
-  margin-left: 1.6rem;
-}
-
-.body_polo_p2{
-  font-size: 0.72rem;
-  width: 23rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #b2beb5;
-  margin-top: 1px;
-  margin-left: 1.6rem;
-}
-
-.bodyp_h2{
-  font-size: 1.5rem;
-  margin-left: 29rem;
-  margin-top: 2rem;
-  color: #00a3ba;
-}
-
-.Service_section{
-  padding: 1em 3em;
-}
-
-.section-heading{
-  margin-left: 1rem;
-}
-
-.row{
-  display: grid; 
-    
-   margin-top: 1.5rem;
-}
-
-.card{
-  border: 1px solid black;
-  width: 18rem;
-  height: 100%;
-  padding: 2em 1.5em;
-  background: linear-gradient(#ffffff 50%, #00a3ba 50%);
-  background-size: 100% 200%;
-  background-position: 0 2.5%;
-  border-radius: 5px;
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
-  cursor: pointer;
-  transition: 0.5s;
-} 
-
-.icon-wrapper{
-  background-color: #00a3ba;
-  position: relative;
-  margin: auto;
-  font-size: 30px;
-  height: 2.5em;
-  width: 2.5em;
-  color: #ffffff;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  transition: 0.5s;
-}
-
-.footer__logo_last{
-  font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 1rem;
-  display: inline-block;
-}
-
-
-footer {
-  background: #00a3ba;   
-  padding: 3rem 0;
-  text-align: center;
-  font-size: 0.9rem;
-  margin-top: 32rem;         
-}
-
-.footer_last{
-  background: #00a3ba;   
-  padding: 3rem 0;
-  text-align: center;
-  font-size: 0.9rem;
-  margin-top: 7rem;  
-}
-
-footer a {
-  color: #1f1f38;
-}
-
-
-  
-}
-
-
-
-
 
 
 
@@ -3104,7 +3038,6 @@ footer a {
     padding: 10px;
     display: grid;
     margin-top: -39rem;
-    /* margin-top: 20px; */
   }
 
   .about_sectionH1 {
@@ -3584,14 +3517,12 @@ footer a {
     font-size: 1.4rem;
     font-weight: 600;
     margin-left: 20px;
-    
-    }
+  }
 
   .logo1_p {
     font-size: 1.3rem;
     margin-left: 22px;
     margin-top: 10px;
-    
   }
 
   .contact_logo2_div2 {
@@ -3627,13 +3558,11 @@ footer a {
 
   .contact_logo3_div {
     display: flex;
-    
   }
 
   .contact_logo3 {
     font-size: 1.7rem;
     color: #00a3ba;
-    
   }
 
   .contact_logo3_p {
@@ -3694,21 +3623,21 @@ footer a {
     margin-left: 1rem;
   }
 
-  .bodyp_h1{
+  .bodyp_h1 {
     font-size: 0.5rem;
     margin-left: 2rem;
     margin-top: 2rem;
     color: #00a3ba;
   }
 
-  .bodyp_h1_1{
+  .bodyp_h1_1 {
     font-size: 0.9rem;
     margin-left: 6rem;
     margin-top: 2rem;
     color: #00a3ba;
   }
-  
-  .body_polo_p{
+
+  .body_polo_p {
     font-size: 0.9rem;
     width: 35rem;
     font-family: "Poppins", sans-serif;
@@ -3717,8 +3646,8 @@ footer a {
     margin-top: 20px;
     margin-left: 2rem;
   }
-  
-  .body_polo_p1{
+
+  .body_polo_p1 {
     font-size: 0.9rem;
     width: 35rem;
     font-family: "Poppins", sans-serif;
@@ -3727,8 +3656,8 @@ footer a {
     margin-top: 1px;
     margin-left: 2rem;
   }
-  
-  .body_polo_p2{
+
+  .body_polo_p2 {
     font-size: 0.9rem;
     width: 35rem;
     font-family: "Poppins", sans-serif;
@@ -3737,16 +3666,15 @@ footer a {
     margin-top: 1px;
     margin-left: 2rem;
   }
-  
-  
-  .bodyp_h1{
+
+  .bodyp_h1 {
     font-size: 0.9rem;
     margin-left: 5.9rem;
     margin-top: 2rem;
     color: #00a3ba;
   }
-  
-  .body_polo_p{
+
+  .body_polo_p {
     font-size: 0.74rem;
     width: 21rem;
     font-family: "Poppins", sans-serif;
@@ -3755,8 +3683,8 @@ footer a {
     margin-top: 20px;
     margin-left: 1.5rem;
   }
-  
-  .body_polo_p1{
+
+  .body_polo_p1 {
     font-size: 0.74rem;
     width: 21rem;
     font-family: "Poppins", sans-serif;
@@ -3765,8 +3693,8 @@ footer a {
     margin-top: 1px;
     margin-left: 1.5rem;
   }
-  
-  .body_polo_p2{
+
+  .body_polo_p2 {
     font-size: 0.74rem;
     width: 21rem;
     font-family: "Poppins", sans-serif;
@@ -3775,19 +3703,19 @@ footer a {
     margin-top: 1px;
     margin-left: 1.5rem;
   }
-  
-  .bodyp_h2{
+
+  .bodyp_h2 {
     font-size: 1.5rem;
     margin-left: 29rem;
     margin-top: 2rem;
     color: #00a3ba;
   }
-  
-  .Service_section{
+
+  .Service_section {
     padding: 1em 3em;
   }
-  
-  .section-heading{
+
+  .section-heading {
     margin-left: -7px;
   }
 
@@ -3801,67 +3729,67 @@ footer a {
     font-size: 1rem;
     font-weight: 300;
     border-radius: 5px;
-    transition: .4s;
+    transition: 0.4s;
   }
 
   .contact_button:hover {
     background: white;
   }
 
+  .row {
+    display: grid;
 
-.row{
-  display: grid; 
-    
-   margin-top: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .card {
+    border: 1px solid black;
+    width: 15rem;
+    height: 100%;
+    padding: 2em 1.5em;
+    background: linear-gradient(#ffffff 50%, #00a3ba 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .icon-wrapper {
+    background-color: #00a3ba;
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+  }
+
+  .footer__logo_last {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
+
+  footer {
+    background: #00a3ba;
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 35rem;
+  }
+
+  footer a {
+    color: #1f1f38;
+  }
 }
 
-.card{
-  border: 1px solid black;
-  width: 15rem;
-  height: 100%;
-  padding: 2em 1.5em;
-  background: linear-gradient(#ffffff 50%, #00a3ba 50%);
-  background-size: 100% 200%;
-  background-position: 0 2.5%;
-  border-radius: 5px;
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
-  cursor: pointer;
-  transition: 0.5s;
-} 
-
-.icon-wrapper{
-  background-color: #00a3ba;
-  position: relative;
-  margin: auto;
-  font-size: 30px;
-  height: 2.5em;
-  width: 2.5em;
-  color: #ffffff;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  transition: 0.5s;
-}
-
-.footer__logo_last{
-  font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 1rem;
-  display: inline-block;
-}
-
-
-footer {
-  background: #00a3ba;   
-  padding: 3rem 0;
-  text-align: center;
-  font-size: 0.9rem;
-  margin-top: 35rem;         
-}
-
-footer a {
-  color: #1f1f38;
-}
 
 
 
@@ -3871,4 +3799,3 @@ footer a {
 
 
 
-}

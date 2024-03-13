@@ -1,6 +1,8 @@
 import "./nav.css";
 import Img1 from "./logo.png";
 import { useState } from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import Img4 from "./pass 3.jpeg";
 import Img5 from "./pass 7.jpeg";
 import { FaFacebookF } from "react-icons/fa";
@@ -13,7 +15,39 @@ import { FaSnapchat } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+  const [name, setName] = useState();
+  const [mail, setMail] = useState();
+  const [message, setMessage] = useState();
+
   const [isOpen, setIsOpen] = useState(false);
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    setName("");
+    setMail("");
+    setMessage("");
+
+    emailjs
+      .sendForm(
+        "service_2z79h6r",
+        "template_4gbwg0a",
+        form.current,
+        "kWG-FqtA7uTl12qe2"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message.text");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <section className="">
@@ -328,31 +362,37 @@ const Nav = () => {
                     <p className="contact_h5">CONTACT US</p>
                   </div>
                   <div className="general_input_div">
-                    <input
-                      type="text"
-                      name="to_name"
-                      placeholder="Enter Your Name"
-                      className="contact_name"
-                    />
-                    <br />
-                    <input
-                      type="email"
-                      name="from_name"
-                      placeholder="Enter Your Email"
-                      className="contact_email"
-                    />
-                    <br />
-                    <textarea
-                      name="message"
-                      placeholder="Enter Your Message"
-                      className="contact_textarea"
-                    />
-                    <br />
-                    <input
-                      type="submit"
-                      value="SUBMIT"
-                      className="contact_button"
-                    />
+                    <form ref={form} onSubmit={sendEmail}>
+                      <input
+                        type="text"
+                        className="contact_name"
+                        name="to_name"
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                      />
+                      <br />
+                      <input
+                        type="email"
+                        className="contact_email"
+                        name="from_name"
+                        value={mail}
+                        onChange={(e) => setMail(e.target.value)}
+                      />
+                      <br />
+                      <textarea
+                        className="contact_textarea"
+                        name="message"
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
+                      />
+
+                      <br />
+                      <input
+                        type="submit"
+                        className="contact_button"
+                        value="Send"
+                      />
+                    </form>
                   </div>
                 </div>
               </div>
