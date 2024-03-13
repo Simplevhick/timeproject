@@ -390,7 +390,7 @@ const Nav = () => {
                       <input
                         type="submit"
                         className="contact_button"
-                        value="Send"
+                        value="SUBMIT"
                       />
                     </form>
                   </div>
