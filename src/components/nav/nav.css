@@ -748,10 +748,17 @@
   margin-left: 6rem;
 }
 
+.contact_h5{
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+}
+
+
 .contact_name {
   padding: 10px;
   width: 20rem;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 21px;
   outline: none;
 }
@@ -759,7 +766,7 @@
 .contact_email {
   padding: 10px;
   width: 20rem;
-  margin-top: 1.4rem;
+  margin-top: 2rem;
   margin-left: 21px;
   outline: none;
 }
@@ -767,20 +774,20 @@
 .contact_textarea {
   padding: 15px;
   width: 20rem;
-  margin-top: 1.4rem;
+  margin-top: 2rem;
   margin-left: 21px;
   outline: none;
 }
 
 .general_input_div {
   padding: 20px;
-  margin-top: 1.5rem;
+  margin-top: 0.2rem;
 }
 
 .contact_button {
   padding: 5px;
   width: 20rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-left: 21px;
   cursor: pointer;
   background: #00a3ba;
@@ -810,6 +817,14 @@ footer a {
   margin-bottom: 1rem;
   display: inline-block;
 }
+
+.footer__logo_last{
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
 
 .permalinks {
   display: flex; 
@@ -850,6 +865,13 @@ footer a {
 }
 
 .bodyp_h1{
+  font-size: 1.1rem;
+  margin-left: 32rem;
+  margin-top: 2rem;
+  color: #00a3ba;
+}
+
+.bodyp_h1_1{
   font-size: 1.1rem;
   margin-left: 32rem;
   margin-top: 2rem;
@@ -975,6 +997,13 @@ p{
 .card:hover p{
   color: #f0f0f0;
 }
+
+
+
+
+
+
+
 
 
 
@@ -1204,7 +1233,7 @@ p{
     font-size: 38px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    margin-left: 8rem;
+    margin-left: 7rem;
     margin-top: 2rem;
   }
 
@@ -1254,7 +1283,7 @@ p{
   }
 
   .team_body1_icons {
-    margin-top: 12px;
+    margin-top: 17px;
     margin-left: 83px;
     display: flex;
   }
@@ -1309,8 +1338,8 @@ p{
   }
 
   .team_body2_icons {
-    margin-top: 11px;
-    margin-left: 77px;
+    margin-top: 18px;
+    margin-left: 85px;
     display: flex;
   }
 
@@ -1364,8 +1393,8 @@ p{
   }
 
   .team_body3_icons {
-    margin-top: 11px;
-    margin-left: 84px;
+    margin-top: 17px;
+    margin-left: 90px;
     display: flex;
   }
 
@@ -1418,7 +1447,7 @@ p{
   }
 
   .team_body4_icons {
-    margin-top: 11px;
+    margin-top: 15px;
     margin-left: 85px;
     display: flex;
   }
@@ -1473,8 +1502,8 @@ p{
   }
 
   .team_body5_icons {
-    margin-top: 11px;
-    margin-left: 83px;
+    margin-top: 17px;
+    margin-left: 88px;
     display: flex;
   }
 
@@ -1548,7 +1577,7 @@ p{
 
   .servives_h2 {
     margin-top: 15rem;
-    margin-left: 9rem;
+    margin-left: 11rem;
     font-size: 2rem;
   }
 
@@ -1721,9 +1750,15 @@ p{
   }
 
   .contact_h2 {
-    font-size: 3rem;
+    font-size: 9rem;
     margin-top: 2rem;
     margin-left: 5.5rem;
+  }
+
+  .contact_h5{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-left: 1.2rem;
   }
 
   .contact_name {
@@ -1788,11 +1823,51 @@ footer {
   padding: 3rem 0;
   text-align: center;
   font-size: 0.9rem;
-  margin-top: 29rem;         
+  margin-top: 39rem;         
 }
 
 .footer__copyright{
   font-size: 1rem;
+}
+
+.footer__logo{
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+
+/* footer {
+  background: #00a3ba;   
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 32rem;         
+} */
+
+footer a {
+  color: #1f1f38;
+}
+
+.footer__logo_last{
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+
+/* footer {
+  background: #00a3ba;   
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 50rem;         
+} */
+
+footer a {
+  color: #1f1f38;
 }
 
 .Service_section{
@@ -1819,7 +1894,7 @@ footer {
   font-weight: 600;
   color: #b2beb5;
   margin-top: 20px;
-  margin-left: 3.1rem;
+  margin-left: 4.5rem;
 }
 
 .body_polo_p1{
@@ -1829,7 +1904,7 @@ footer {
   font-weight: 600;
   color: #b2beb5;
   margin-top: 1px;
-  margin-left: 3.1rem;
+  margin-left: 4.5rem;
 }
 
 .body_polo_p2{
@@ -1839,7 +1914,7 @@ footer {
   font-weight: 600;
   color: #b2beb5;
   margin-top: 1px;
-  margin-left: 3.1rem;
+  margin-left: 4.5rem;
 }
 
 .bodyp_h2{
@@ -2140,7 +2215,7 @@ footer {
     background-color: white;
     position: absolute;
     top: 21rem;
-    left: 5.5rem;
+    left: 5.2rem;
   }
 
   .team_body1_firstname {
@@ -2154,8 +2229,8 @@ footer {
   }
 
   .team_body1_icons {
-    margin-top: 12px;
-    margin-left: 83px;
+    margin-top: 18px;
+    margin-left: 77px;
     display: flex;
   }
 
@@ -2209,7 +2284,7 @@ footer {
   }
 
   .team_body2_icons {
-    margin-top: 11px;
+    margin-top: 14px;
     margin-left: 95px;
     display: flex;
   }
@@ -2265,8 +2340,8 @@ footer {
   }
 
   .team_body3_icons {
-    margin-top: 11px;
-    margin-left: 91px;
+    margin-top: 16px;
+    margin-left: 96px;
     display: flex;
   }
 
@@ -2319,8 +2394,8 @@ footer {
   }
 
   .team_body4_icons {
-    margin-top: 10px;
-    margin-left: 92px;
+    margin-top: 14px;
+    margin-left: 96px;
     display: flex;
   }
 
@@ -2374,8 +2449,8 @@ footer {
   }
 
   .team_body5_icons {
-    margin-top: 9px;
-    margin-left: 96px;
+    margin-top: 13px;
+    margin-left: 101px;
     display: flex;
   }
 
@@ -2428,8 +2503,8 @@ footer {
   }
 
   .team_body6_icons {
-    margin-top: 1px;
-    margin-left: 95px;
+    margin-top: 5px;
+    margin-left: 97px;
     display: flex;
   }
 
@@ -2456,7 +2531,6 @@ footer {
   .text-box h2 {
     font-weight: 600;
     font-size: 1.6rem;
-    /* width: 22rem; */
   }
 
   .sm_p {
@@ -2628,6 +2702,12 @@ footer {
     margin-left: 5.3rem;
   }
 
+  .contact_h5{
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-left: 0.7rem;
+  }
+
   .contact_name {
     padding: 11px;
     width: 19rem;
@@ -2685,14 +2765,6 @@ footer {
     margin-bottom: 2.6rem;
 }
 
-footer {
-  background: #00a3ba;   
-  padding: 3rem 0;
-  text-align: center;
-  font-size: 0.9rem;
-  margin-top: 29rem;         
-}
-
 .footer__copyright{
   font-size: 1rem;
 }
@@ -2743,6 +2815,13 @@ footer {
   color: #00a3ba;
 }
 
+.bodyp_h1_1{
+  font-size: 0.9rem;
+  margin-left: 7.8rem;
+  margin-top: 2rem;
+  color: #00a3ba;
+}
+
 .body_polo_p{
   font-size: 0.72rem;
   width: 23rem;
@@ -2750,7 +2829,7 @@ footer {
   font-weight: 600;
   color: #b2beb5;
   margin-top: 20px;
-  margin-left: 1rem;
+  margin-left: 1.6rem;
 }
 
 .body_polo_p1{
@@ -2760,7 +2839,7 @@ footer {
   font-weight: 600;
   color: #b2beb5;
   margin-top: 1px;
-  margin-left: 1rem;
+  margin-left: 1.6rem;
 }
 
 .body_polo_p2{
@@ -2770,7 +2849,7 @@ footer {
   font-weight: 600;
   color: #b2beb5;
   margin-top: 1px;
-  margin-left: 1rem;
+  margin-left: 1.6rem;
 }
 
 .bodyp_h2{
@@ -2822,7 +2901,33 @@ footer {
   transition: 0.5s;
 }
 
+.footer__logo_last{
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
 
+
+footer {
+  background: #00a3ba;   
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 32rem;         
+}
+
+.footer_last{
+  background: #00a3ba;   
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 7rem;  
+}
+
+footer a {
+  color: #1f1f38;
+}
 
 
   
@@ -3050,7 +3155,7 @@ footer {
     font-size: 32px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    margin-left: 2.4rem;
+    margin-left: 1.5rem;
     margin-top: 2.2rem;
   }
   .team_bodydiv {
@@ -3154,7 +3259,7 @@ footer {
   }
 
   .team_body2_icons {
-    margin-top: 8px;
+    margin-top: 14px;
     margin-left: 77px;
     display: flex;
   }
@@ -3209,7 +3314,7 @@ footer {
   }
 
   .team_body3_icons {
-    margin-top: 8px;
+    margin-top: 14px;
     margin-left: 82px;
     display: flex;
   }
@@ -3263,7 +3368,7 @@ footer {
   }
 
   .team_body4_icons {
-    margin-top: 2px;
+    margin-top: 7px;
     margin-left: 84px;
     display: flex;
   }
@@ -3318,7 +3423,7 @@ footer {
   }
 
   .team_body5_icons {
-    margin-top: 2px;
+    margin-top: 7px;
     margin-left: 87px;
     display: flex;
   }
@@ -3372,8 +3477,8 @@ footer {
   }
 
   .team_body6_icons {
-    margin-top: 9px;
-    margin-left: 91px;
+    margin-top: 11px;
+    margin-left: 89px;
     display: flex;
   }
 
@@ -3595,6 +3700,13 @@ footer {
     margin-top: 2rem;
     color: #00a3ba;
   }
+
+  .bodyp_h1_1{
+    font-size: 0.9rem;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    color: #00a3ba;
+  }
   
   .body_polo_p{
     font-size: 0.9rem;
@@ -3629,7 +3741,7 @@ footer {
   
   .bodyp_h1{
     font-size: 0.9rem;
-    margin-left: 6rem;
+    margin-left: 5.9rem;
     margin-top: 2rem;
     color: #00a3ba;
   }
@@ -3641,7 +3753,7 @@ footer {
     font-weight: 600;
     color: #b2beb5;
     margin-top: 20px;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
   }
   
   .body_polo_p1{
@@ -3651,7 +3763,7 @@ footer {
     font-weight: 600;
     color: #b2beb5;
     margin-top: 1px;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
   }
   
   .body_polo_p2{
@@ -3661,7 +3773,7 @@ footer {
     font-weight: 600;
     color: #b2beb5;
     margin-top: 1px;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
   }
   
   .bodyp_h2{
@@ -3676,7 +3788,7 @@ footer {
   }
   
   .section-heading{
-    margin-left: 0.1px;
+    margin-left: -7px;
   }
 
   .contact_button {
@@ -3731,7 +3843,25 @@ footer {
   transition: 0.5s;
 }
 
+.footer__logo_last{
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
 
+
+footer {
+  background: #00a3ba;   
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 35rem;         
+}
+
+footer a {
+  color: #1f1f38;
+}
 
 
 

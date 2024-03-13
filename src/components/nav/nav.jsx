@@ -8,8 +8,8 @@ import { BsInstagram } from "react-icons/bs";
 import { IoCallOutline } from "react-icons/io5";
 import { MdLocationOn } from "react-icons/md";
 import { LuClock3 } from "react-icons/lu";
-import {FaTwitter} from "react-icons/fa"
-import {FaSnapchat} from "react-icons/fa"
+import { FaTwitter } from "react-icons/fa";
+import { FaSnapchat } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
@@ -233,7 +233,7 @@ const Nav = () => {
           <div className="timeline">
             <div className="container left-container">
               <div className="text-box">
-                <h2>Audio/Visual Production</h2>                
+                <h2>Audio/Visual Production</h2>
                 <p className="text_box_p">
                   {" "}
                   We deliver state of the arts audio-visual production from
@@ -325,7 +325,7 @@ const Nav = () => {
               <div className="second_part">
                 <div className="">
                   <div className="contact_h2">
-                    <p>CONTACT US</p>
+                    <p className="contact_h5">CONTACT US</p>
                   </div>
                   <div className="general_input_div">
                     <input
@@ -342,9 +342,17 @@ const Nav = () => {
                       className="contact_email"
                     />
                     <br />
-                    <textarea name="message" placeholder="Enter Your Message" className="contact_textarea" />
+                    <textarea
+                      name="message"
+                      placeholder="Enter Your Message"
+                      className="contact_textarea"
+                    />
                     <br />
-                    <input type="submit" value="SUBMIT" className="contact_button"/>
+                    <input
+                      type="submit"
+                      value="SUBMIT"
+                      className="contact_button"
+                    />
                   </div>
                 </div>
               </div>
@@ -353,26 +361,44 @@ const Nav = () => {
         </div>
 
         <footer>
-      <a href="#" className='footer__logo'>TIMELINE</a>
+          <a href="#" className="footer__logo">
+            TIMELINE
+          </a>
 
-      <ul className='permalinks'>
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Team</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-      </ul>
+          <ul className="permalinks">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#experience">Team</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
 
-        <div className="footer__socials">
-          <a href="https://www.snapchat.com/add/svhick20" target="_blank"><FaSnapchat /></a>
-          <a href="https://www.instagram.com/simplevhick_" target="_blank"><BsInstagram /></a>
-          <a href="https://twitter.com/simplevhick" target="_blank"><FaTwitter/></a>
-        </div>
+          <div className="footer__socials">
+            <a href="https://www.snapchat.com/add/svhick20" target="_blank">
+              <FaSnapchat />
+            </a>
+            <a href="https://www.instagram.com/simplevhick_" target="_blank">
+              <BsInstagram />
+            </a>
+            <a href="https://twitter.com/simplevhick" target="_blank">
+              <FaTwitter />
+            </a>
+          </div>
 
-        <div className="footer__copyright">
-          <small>&copy; TIMELINE. All rights reserved.</small>
-        </div>
-    </footer>
+          <div className="footer__copyright">
+            <small>&copy; TIMELINE. All rights reserved.</small>
+          </div>
+        </footer>
       </div>
     </section>
   );

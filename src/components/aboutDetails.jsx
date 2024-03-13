@@ -1,6 +1,15 @@
 import Img1 from "./logo.png";
 import { useState } from "react";
 import { FaHammer } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { LiaFileAudio } from "react-icons/lia";
+import { FaSnapchat } from "react-icons/fa";
+import { BsInstagram } from "react-icons/bs";
+import { PiVinylRecordFill } from "react-icons/pi";
+import { SiMediamarkt } from "react-icons/si";
+import { MdOutlineRecordVoiceOver } from "react-icons/md";
+
+
 
 const AboutDetails = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,15 +21,15 @@ const AboutDetails = () => {
           <img src={Img1} alt="pix" className="logo" />
         </span>
         <div className={`nav-items ${isOpen && "open"} header`}>
-          <a href="/home">Home</a>
-          <a href="#about" a>
+          <a href="/">Home</a>
+          <a href="/" a>
             About
           </a>
-          <a href="#team" a>
+          <a href="/" a>
             Team
           </a>
-          <a href="#services">Services</a>
-          <a href="#contact">Contact</a>
+          <a href="/">Services</a>
+          <a href="/">Contact</a>
         </div>
         <div
           className={`nav-toggle ${isOpen && "open"} `}
@@ -31,7 +40,7 @@ const AboutDetails = () => {
       </div>
 
       <div>
-        <div className="bodyp_h1">
+        <div className="bodyp_h1_1">
           <h1>Who Are We ?</h1>
         </div>
         <div className="body_polo">
@@ -59,7 +68,8 @@ const AboutDetails = () => {
           <div className="column">
             <div className="card">
               <div className="icon-wrapper">
-                <FaHammer />
+              <LiaFileAudio />
+                
               </div>
               <h3>Audio/Visual Production</h3>
               <p>
@@ -75,7 +85,7 @@ const AboutDetails = () => {
           <div className="column">
             <div className="card">
               <div className="icon-wrapper">
-                <FaHammer />
+              <PiVinylRecordFill />
               </div>
               <h3>Record Labels</h3>
               <p>
@@ -90,7 +100,7 @@ const AboutDetails = () => {
           <div className="column">
             <div className="card">
               <div className="icon-wrapper">
-                <FaHammer />
+              <MdOutlineRecordVoiceOver />
               </div>
               <h3>Off-Stage Commentry</h3>
               <p>
@@ -105,7 +115,7 @@ const AboutDetails = () => {
           <div className="column">
             <div className="card">
               <div className="icon-wrapper">
-                <FaHammer />
+              <SiMediamarkt />
               </div>
               <h3>Media IT solutions</h3>
               <p>
@@ -117,7 +127,7 @@ const AboutDetails = () => {
               </p>
             </div>
           </div>
-          <div className="column">
+          {/* <div className="column">
             <div className="card">
               <div className="icon-wrapper">
                 <FaHammer />
@@ -144,9 +154,49 @@ const AboutDetails = () => {
                 itaque consequuntur deserunt sint neque!
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
+
+      <footer className="footer_last">
+          <a href="#" className="footer__logo_last">
+            TIMELINE
+          </a>
+
+          <ul className="permalinks">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#experience">Team</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <div className="footer__socials">
+            <a href="https://www.snapchat.com/add/svhick20" >
+              <FaSnapchat />
+            </a>
+            <a href="https://www.instagram.com/simplevhick_">
+              <BsInstagram />
+            </a>
+            <a href="https://twitter.com/simplevhick" target="_blank">
+              <FaTwitter />
+            </a>
+          </div>
+
+          <div className="footer__copyright">
+            <small>&copy; TIMELINE. All rights reserved.</small>
+          </div>
+        </footer>
     </div>
   );
 };
