@@ -368,6 +368,7 @@ const Nav = () => {
                         className="contact_name"
                         name="to_name"
                         value={name}
+                        placeholder="Enter Your Name"
                         onChange={(e) => setName(e.target.value)}
                       />
                       <br />
@@ -376,6 +377,7 @@ const Nav = () => {
                         className="contact_email"
                         name="from_name"
                         value={mail}
+                        placeholder="Enter Your Email"
                         onChange={(e) => setMail(e.target.value)}
                       />
                       <br />
@@ -383,6 +385,7 @@ const Nav = () => {
                         className="contact_textarea"
                         name="message"
                         value={message}
+                        placeholder="Enter Your Message"
                         onChange={(e) => setMessage(e.target.value)}
                       />
 
