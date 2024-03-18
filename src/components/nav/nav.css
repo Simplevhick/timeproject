@@ -145,6 +145,8 @@
   margin-top: 9rem;
   height: 70rem;
   background-color: #00a3ba;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .team_overallh1 {
@@ -497,6 +499,8 @@
   margin-top: 14rem;
   margin-left: 32.2rem;
   font-size: 2rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .timeline {
@@ -635,6 +639,7 @@
 
 .contact_div2 {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .contact_img {
