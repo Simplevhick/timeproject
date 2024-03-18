@@ -803,7 +803,7 @@ footer {
   padding: 3rem 0;
   text-align: center;
   font-size: 0.9rem;
-  margin-top: 9rem;
+  margin-top: 12rem;
 }
 
 footer a {
@@ -994,6 +994,10 @@ p {
 .card:hover p {
   color: #f0f0f0;
 }
+
+
+
+
 
 
 
@@ -1796,6 +1800,8 @@ p {
 
 
 
+
+
 @media (max-width: 640px){ 
 
   .Navbar > .nav-items {
@@ -1978,13 +1984,15 @@ p {
     margin-top: 9rem;
     height: 180rem;
     background-color: #00a3ba;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .team_overallh1 {
     font-size: 38px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    margin-left: 7.7rem;
+    margin-left: 7.9rem;
     margin-top: 2rem;
   }
 
@@ -1997,6 +2005,7 @@ p {
     width: 26rem;
     height: 168rem;
     margin-left: 6.7rem;
+    
   }
 
   .team_body1 {
@@ -2565,7 +2574,7 @@ p {
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
-    margin-top: 6rem;
+    margin-top: 39rem;
   }
 
   .footer__copyright {
@@ -3891,19 +3900,19 @@ p {
     font-size: 35px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    margin-left: 2.1rem;
+    margin-left: 1.8rem;
     margin-top: 2rem;
   }
 
   .team_bodydiv {
-    margin-top: 40px;
+    margin-top: 20px;
     display: grid;
     background-color: #fff;
     grid-template-columns: 1fr;
     position: relative;
     width: 21rem;
     height: 168rem;
-    margin-left: 2.4rem;
+    margin-left: 2rem;
   }
 
   .team_body1 {

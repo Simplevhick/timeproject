@@ -143,13 +143,19 @@ const Nav = () => {
                 </div>
                 <div className="team_body1_icons">
                   <p className="team_body1_facebook">
+                    <Link>
                     <FaFacebookF />
+                    </Link>
                   </p>
                   <p className="team_body1_twitter">
+                  <Link>
                     <FaTwitter />
+                    </Link>
                   </p>
                   <p className="team_body1_instagram">
+                  <Link>
                     <BsInstagram />
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -163,15 +169,19 @@ const Nav = () => {
                 </div>
                 <div className="team_body2_icons">
                   <p className="team_body2_facebook">
-                    <Link>
-                      <FaFacebookF />
+                  <Link>
+                    <FaFacebookF />
                     </Link>
                   </p>
                   <p className="team_body2_twitter">
+                    <Link>
                     <FaTwitter />
+                    </Link>
                   </p>
                   <p className="team_body2_instagram">
+                    <Link>
                     <BsInstagram />
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -185,13 +195,19 @@ const Nav = () => {
                 </div>
                 <div className="team_body3_icons">
                   <p className="team_body3_facebook">
+                  <Link>
                     <FaFacebookF />
+                    </Link>
                   </p>
                   <p className="team_body3_twitter">
+                  <Link>
                     <FaTwitter />
+                    </Link>
                   </p>
                   <p className="team_body3_instagram">
+                  <Link>
                     <BsInstagram />
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -205,13 +221,19 @@ const Nav = () => {
                 </div>
                 <div className="team_body4_icons">
                   <p className="team_body4_facebook">
+                  <Link>
                     <FaFacebookF />
+                    </Link>
                   </p>
                   <p className="team_body3_twitter">
+                  <Link>
                     <FaTwitter />
+                    </Link>
                   </p>
                   <p className="team_body3_instagram">
+                  <Link>
                     <BsInstagram />
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -225,13 +247,19 @@ const Nav = () => {
                 </div>
                 <div className="team_body5_icons">
                   <p className="team_body5_facebook">
+                  <Link>
                     <FaFacebookF />
+                    </Link>
                   </p>
                   <p className="team_body5_twitter">
+                  <Link>
                     <FaTwitter />
+                    </Link>
                   </p>
                   <p className="team_body5_instagram">
+                  <Link>
                     <BsInstagram />
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -245,13 +273,19 @@ const Nav = () => {
                 </div>
                 <div className="team_body6_icons">
                   <p className="team_body6_facebook">
+                  <Link>
                     <FaFacebookF />
+                    </Link>
                   </p>
                   <p className="team_body6_twitter">
+                  <Link>
                     <FaTwitter />
+                    </Link>
                   </p>
                   <p className="team_body6_instagram">
+                  <Link>
                     <BsInstagram />
+                    </Link>
                   </p>
                 </div>
               </div>
