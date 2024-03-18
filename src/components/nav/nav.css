@@ -145,8 +145,6 @@
   margin-top: 9rem;
   height: 70rem;
   background-color: #00a3ba;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .team_overallh1 {
@@ -499,8 +497,6 @@
   margin-top: 14rem;
   margin-left: 32.2rem;
   font-size: 2rem;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .timeline {
@@ -639,7 +635,6 @@
 
 .contact_div2 {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .contact_img {
@@ -2389,8 +2384,6 @@ p {
     margin-top: 15rem;
     margin-left: 12rem;
     font-size: 2rem;
-    display: flex;
-  flex-wrap: wrap;
   }
 
   .sm_p2 {
@@ -2914,7 +2907,7 @@ p {
   }
 
   .body_h1 {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     line-height: 1.7rem;
     color: #00a3ba;
   }
@@ -2935,7 +2928,7 @@ p {
     color: #fff;
     border: none;
     padding: 8px 8px 8px 8px;
-    font-size: 10px;
+    font-size: 13px;
     cursor: pointer;
     margin-left: 5px;
     border-radius: 7px;
