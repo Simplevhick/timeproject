@@ -1961,7 +1961,7 @@ p {
     color: #fff;
     border: none;
     padding: 8px 8px 8px 8px;
-    font-size: 10px;
+    font-size: 13px;
     cursor: pointer;
     margin-left: 5px;
     border-radius: 7px;
@@ -2034,21 +2034,19 @@ p {
     font-size: 38px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    margin-left: 7.9rem;
+    margin-left: 7.5rem;
     margin-top: 2rem;
   }
 
   .team_bodydiv {
-    margin-top: 40px;
+    margin-top: 5px;
     display: grid;
     background-color: #fff;
     grid-template-columns: 1fr;
     position: relative;
     width: 26rem;
     height: 168rem;
-    margin-left: 6.7rem;
-    display: flex;
-  flex-wrap: wrap;    
+    margin-left: 6.7rem;   
   }
 
   .team_body1 {
@@ -2383,7 +2381,7 @@ p {
   .servives_h2 {
     margin-top: 15rem;
     margin-left: 12rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .sm_p2 {
@@ -2474,12 +2472,12 @@ p {
   }
 
   .contact_logo1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #00a3ba;
   }
 
   .contact_logo1_p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
     margin-left: 20px;
   }
@@ -2487,7 +2485,7 @@ p {
   .logo1_p {
     font-size: 1.5rem;
     margin-left: 22px;
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
   .contact_logo2_div2 {
@@ -2500,12 +2498,12 @@ p {
   }
 
   .contact_logo2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #00a3ba;
   }
 
   .contact_logo2_p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
     margin-left: 20px;
   }
@@ -2513,7 +2511,7 @@ p {
   .logo2_p {
     font-size: 1.5rem;
     margin-left: 22px;
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
   .contact_logo3_div3 {
@@ -2526,12 +2524,12 @@ p {
   }
 
   .contact_logo3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #00a3ba;
   }
 
   .contact_logo3_p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
     margin-left: 20px;
   }
@@ -2539,7 +2537,7 @@ p {
   .logo3_p {
     font-size: 1.5rem;
     margin-left: 22px;
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
   .second_part {
@@ -2619,7 +2617,7 @@ p {
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
-    margin-top: 39rem;
+    margin-top: 7rem;
   }
 
   .footer__copyright {
