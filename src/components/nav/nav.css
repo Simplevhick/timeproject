@@ -2081,8 +2081,9 @@ p {
   }
 
   .team_body1_work {
-    font-size: 1rem;
-    letter-spacing: 1px;
+    font-size: 0.7rem;
+    margin-left: 14px;
+    letter-spacing: 0.5px;
   }
 
   .team_body1_icons {
@@ -2135,9 +2136,9 @@ p {
   }
 
   .team_body2_work {
-    font-size: 1rem;
-    letter-spacing: 1px;
-    margin-left: 4px;
+    font-size: 0.7rem;
+    margin-left: 16px;
+    letter-spacing: 0.5px;
   }
 
   .team_body2_icons {
@@ -2190,9 +2191,9 @@ p {
   }
 
   .team_body3_work {
-    font-size: 1rem;
-    letter-spacing: 1px;
-    margin-left: 2px;
+    font-size: 0.7rem;
+    margin-left: 14px;
+    letter-spacing: 0.5px;
   }
 
   .team_body3_icons {
@@ -2245,8 +2246,9 @@ p {
   }
 
   .team_body4_work {
-    font-size: 1rem;
-    letter-spacing: 1px;
+    font-size: 0.7rem;
+    margin-left: 14px;
+    letter-spacing: 0.5px;
   }
 
   .team_body4_icons {
@@ -2299,9 +2301,9 @@ p {
   }
 
   .team_body5_work {
-    font-size: 1rem;
-    letter-spacing: 1px;
-    margin-left: 2px;
+    font-size: 0.7rem;
+    margin-left: 14px;
+    letter-spacing: 0.5px;
   }
 
   .team_body5_icons {
@@ -2354,8 +2356,9 @@ p {
   }
 
   .team_body6_work {
-    font-size: 1rem;
-    letter-spacing: 1px;
+    font-size: 0.7rem;
+    margin-left: 14px;
+    letter-spacing: 0.5px;
   }
 
   .team_body6_icons {
