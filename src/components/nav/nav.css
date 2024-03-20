@@ -1844,7 +1844,7 @@ p {
 
 
 
-@media (max-width: 640px){ 
+/* @media (max-width: 640px){ 
 
   .Navbar > .nav-items {
     position: absolute;
@@ -2750,6 +2750,7 @@ p {
 
 
 
+ */
 
 
 
@@ -2812,8 +2813,7 @@ p {
 
 
 
-
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .Navbar > .nav-items {
     position: absolute;
     top: 59px;
@@ -3730,7 +3730,7 @@ p {
 
 
 
-
+/* 
 
 @media (max-width: 435px) { 
 
@@ -6488,7 +6488,7 @@ p {
 
 
 
-
+/* 
 @media (max-width: 360px) {
   .Navbar > .nav-items {
     position: absolute;
@@ -7380,7 +7380,7 @@ p {
 }
 
 
-
+ */
 
 
 
