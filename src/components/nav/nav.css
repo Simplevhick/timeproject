@@ -126,11 +126,11 @@
   line-height: 1.5rem;
   margin-left: 9rem;
   /* position: relative; */
-  max-width: fit-content;
+  min-width: fit-content;
 }
 
 .about_section_p2 {
-  max-width: fit-content;
+  min-width: fit-content;
   /* position: relative; */
   font-size: 1.1rem;
   width: 34rem;
@@ -149,14 +149,20 @@
   margin-top: 9rem;
   height: 70rem;
   background-color: #00a3ba;
+  /* max-width: fit-content; */
+  min-width: fit-content;
+
 }
 
 .team_overallh1 {
   font-size: 45px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  margin-left: 25rem;
-  margin-top: 2rem;
+  /* margin-left: 25rem;
+  margin-top: 2rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .team_bodydiv {
