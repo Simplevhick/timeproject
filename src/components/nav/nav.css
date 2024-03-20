@@ -125,9 +125,13 @@
   color: #b2beb5;
   line-height: 1.5rem;
   margin-left: 9rem;
+  /* position: relative; */
+  max-width: fit-content;
 }
 
 .about_section_p2 {
+  max-width: fit-content;
+  /* position: relative; */
   font-size: 1.1rem;
   width: 34rem;
   line-height: 1.4rem;
@@ -512,6 +516,7 @@
   width: 50%;
   animation: movedown 1s linear forwards;
   opacity: 0;
+  border: 2px solid red;
 }
 @keyframes movedown {
   0% {
